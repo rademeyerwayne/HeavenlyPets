@@ -2,36 +2,6 @@
 
 Self-hosted from the Heavenly Pets PETSHOP Facebook group. One line per image.
 
-- `images/hp-001.jpg` — In the Shop — (no caption)
-- `images/hp-002.jpg` — In the Shop — (no caption)
-- `images/hp-003.jpg` — In the Shop — (no caption)
-- `images/hp-004.jpg` — In the Shop — (no caption)
-- `images/hp-005.jpg` — In the Shop — (no caption)
-- `images/hp-006.jpg` — In the Shop — (no caption)
-- `images/hp-007.jpg` — In the Shop — (no caption)
-- `images/hp-008.jpg` — In the Shop — (no caption)
-- `images/hp-009.jpg` — In the Shop — (no caption)
-- `images/hp-010.jpg` — In the Shop — (no caption)
-- `images/hp-011.jpg` — In the Shop — (no caption)
-- `images/hp-012.jpg` — In the Shop — (no caption)
-- `images/hp-013.jpg` — In the Shop — (no caption)
-- `images/hp-014.jpg` — In the Shop — (no caption)
-- `images/hp-015.jpg` — In the Shop — (no caption)
-- `images/hp-017.jpg` — In the Shop — (no caption)
-- `images/hp-018.jpg` — In the Shop — (no caption)
-- `images/hp-019.jpg` — In the Shop — (no caption)
-- `images/hp-020.jpg` — In the Shop — (no caption)
-- `images/hp-021.jpg` — In the Shop — (no caption)
-- `images/hp-022.jpg` — In the Shop — (no caption)
-- `images/hp-023.jpg` — In the Shop — (no caption)
-- `images/hp-024.jpg` — In the Shop — (no caption)
-- `images/hp-025.jpg` — In the Shop — (no caption)
-- `images/hp-026.jpg` — In the Shop — (no caption)
-- `images/hp-027.jpg` — In the Shop — (no caption)
-- `images/hp-028.jpg` — In the Shop — (no caption)
-- `images/hp-029.jpg` — In the Shop — (no caption)
-- `images/hp-030.jpg` — In the Shop — (no caption)
-- `images/hp-031.jpg` — In the Shop — (no caption)
 - `images/hp-032.jpg` — Pets & Adoption — Colourful aquarium fish stones — give your tank a splash of colour. Eight colours in store.
 - `images/hp-033.jpg` — Accessories & Care — Fluorescent marine aquarium decorations and clownfish designs.
 - `images/hp-034.jpg` — Accessories & Care — Mini scissor litter scoops — scooping made easy.
