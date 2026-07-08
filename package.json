@@ -1,0 +1,15 @@
+{
+  "name": "heavenlypets-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heavenly Pets PETSHOP — single-file static site + Facebook-group crawl/ingest pipeline (dev tooling only; the deployed site is index.html + gallery-data.js + images/).",
+  "type": "module",
+  "scripts": {
+    "grab": "node verify/fb-grab.mjs",
+    "ingest": "node scraper/ingest.mjs",
+    "verify": "node verify/screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

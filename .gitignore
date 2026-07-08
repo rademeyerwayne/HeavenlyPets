@@ -1,0 +1,14 @@
+# Dev tooling — the deployed site is only: index.html, gallery-data.js, images/
+node_modules/
+
+# Facebook grab pipeline (owner-run, machine-local — never deploy these)
+scraper/.userdata/
+scraper/inbox/
+!scraper/inbox/.gitkeep
+
+# Verification artifacts
+verify/screenshots/
+
+# Internal build docs (not part of the deployed site)
+SITE-INSTRUCTIONS.md
+SITE-RULES.md

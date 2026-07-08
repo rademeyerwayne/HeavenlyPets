@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heavenly Pets PETSHOP — Meyerton's neighbourhood pet shop</title>
+<meta name="description" content="Heavenly Pets PETSHOP in Meyerton — quality pet food, treats, accessories and care for dogs, cats and small pets, plus a friendly community that shares new stock, adoptions and advice." />
+<meta name="theme-color" content="#12833B" />
+<meta name="author" content="Heavenly Pets PETSHOP" />
+<link rel="canonical" href="https://heavenlypets.co.za/" />
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="business.business" />
+<meta property="og:site_name" content="Heavenly Pets PETSHOP" />
+<meta property="og:title" content="Heavenly Pets PETSHOP — Meyerton's neighbourhood pet shop" />
+<meta property="og:description" content="Quality pet food, treats, accessories and care for dogs, cats and small pets in Meyerton — with a caring community around it." />
+<meta property="og:url" content="https://heavenlypets.co.za/" />
+<meta property="og:image" content="images/og-cover.png" />
+<meta property="og:locale" content="en_ZA" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Heavenly Pets PETSHOP — Meyerton" />
+<meta name="twitter:description" content="Everything your pets need, under one heavenly roof." />
+<meta name="twitter:image" content="images/og-cover.png" />
+
+<!-- Favicon: real Heavenly Pets emblem -->
+<link rel="icon" type="image/png" href="images/logo-mark.png" />
+<link rel="apple-touch-icon" href="images/logo-mark.png" />
+
+<!-- Fonts: Fraunces (display serif) + Karla (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PetStore",
+  "name": "Heavenly Pets PETSHOP",
+  "description": "Neighbourhood pet shop in Meyerton — pet food, treats, accessories and care for dogs, cats and small pets.",
+  "image": "https://heavenlypets.co.za/images/og-cover.png",
+  "url": "https://heavenlypets.co.za/",
+  "areaServed": "Meyerton, Gauteng, South Africa",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "49B c/o Loch & Holiday St",
+    "addressLocality": "Meyerton",
+    "addressRegion": "Gauteng",
+    "postalCode": "1961",
+    "addressCountry": "ZA"
+  },
+  "telephone": "+27796952929",
+  "email": "heavenlypetshopmeyerton@gmail.com",
+  "sameAs": [
+    "https://www.facebook.com/groups/2747893658723247",
+    "https://www.tiktok.com/@heavenly_pets_petshop",
+    "https://www.heavenlypetshop.co.za/"
+  ]
+}
+</script>
+
+<style>
+:root{
+  /* Heavenly Pets — authentic brand: green + charcoal, warm cream, halo gold.
+     NOTE: the --sky* names are kept for continuity but now hold BRAND GREEN,
+     so every rule that referenced them recolours coherently. */
+  --cloud:#FBF7F0;      /* warm cream page */
+  --cloud-2:#EDF6EF;    /* soft mint alt band */
+  --wit:#FFFFFF;        /* card surface */
+  --ink:#232A26;        /* charcoal text (brand #343434, faint green) */
+  --ink-soft:#586158;   /* muted text */
+  --sky:#20B14F;        /* BRAND green (vivid accent) */
+  --sky-deep:#12833B;   /* accessible green for text/buttons */
+  --sky-ink:#0B5A28;    /* deepest green for gradients / hovers */
+  --gold:#F2B441;       /* halo gold */
+  --gold-deep:#B9821C;  /* accessible gold for small text */
+  --coral:#EF8A78;      /* warm coral for hearts/pets */
+  --coral-deep:#D45C48;
+  --line:#E7DFD2;       /* hairlines on cream */
+  --line-cool:#D9EBDF;  /* hairlines on mint/green */
+  --fb:#1877F2;         /* the one off-palette brand element */
+  --shadow: 0 18px 40px -22px rgba(16,60,32,.45);
+  --shadow-soft: 0 10px 30px -18px rgba(16,60,32,.32);
+  --radius:22px;
+  --maxw:1180px;
+  --display:"Fraunces", Georgia, serif;
+  --body:"Karla", "Segoe UI", sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--cloud); color:var(--ink);
+  font-family:var(--body); font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important}
+}
+img{max-width:100%; display:block}
+a{color:var(--sky-deep); text-decoration:none}
+h1,h2,h3{font-family:var(--display); font-weight:600; line-height:1.08; letter-spacing:-.01em; margin:0}
+p{margin:0 0 1rem}
+
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 clamp(20px,5vw,48px)}
+.eyebrow{
+  font-family:var(--body); font-weight:700; text-transform:uppercase;
+  letter-spacing:.22em; font-size:.72rem; color:var(--gold-deep);
+  display:inline-flex; align-items:center; gap:.55rem;
+}
+.eyebrow::before{content:""; width:26px; height:2px; background:var(--gold); border-radius:2px}
+.btn{
+  display:inline-flex; align-items:center; gap:.55rem; cursor:pointer;
+  font-family:var(--body); font-weight:700; font-size:.98rem;
+  padding:.85rem 1.5rem; border-radius:999px; border:2px solid transparent;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease;
+  white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--sky-deep); color:var(--wit); box-shadow:var(--shadow-soft)}
+.btn-primary:hover{background:var(--sky-ink)}
+.btn-ghost{background:transparent; color:var(--sky-ink); border-color:var(--line-cool)}
+.btn-ghost:hover{border-color:var(--sky-deep); background:#fff}
+.btn-fb{background:var(--fb); color:#fff}
+.btn-fb:hover{background:#1461c9}
+
+/* paper grain overlay */
+.grain{position:fixed; inset:0; z-index:1; pointer-events:none; opacity:.5; mix-blend-mode:multiply}
+
+/* ---------- header ---------- */
+header.site{
+  position:sticky; top:0; z-index:50;
+  background:rgba(251,247,240,.82); backdrop-filter:saturate(140%) blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.nav{display:flex; align-items:center; gap:1.2rem; height:74px}
+.brand{display:flex; align-items:center; gap:.7rem; margin-right:auto; color:var(--ink)}
+.brand .mark{width:46px; height:46px; flex:0 0 auto; filter:drop-shadow(0 4px 10px rgba(47,96,148,.25))}
+.brand b{font-family:var(--display); font-weight:600; font-size:1.18rem; line-height:1; letter-spacing:-.01em; display:block}
+.brand span{font-size:.66rem; letter-spacing:.24em; text-transform:uppercase; color:var(--gold-deep); font-weight:700}
+.nav-links{display:flex; align-items:center; gap:1.5rem}
+.nav-links a{color:var(--ink); font-weight:600; font-size:.96rem; position:relative; padding:.2rem 0}
+.nav-links a::after{content:""; position:absolute; left:0; bottom:-3px; height:2px; width:0; background:var(--gold); transition:width .22s ease}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:flex; align-items:center; gap:.6rem}
+.nav-toggle{display:none; background:none; border:0; cursor:pointer; padding:.4rem; color:var(--ink)}
+.nav-toggle svg{width:28px; height:28px}
+
+/* ---------- hero ---------- */
+.hero{position:relative; overflow:hidden; padding:clamp(48px,8vw,104px) 0 clamp(40px,7vw,88px)}
+.hero::before{ /* soft heavenly light */
+  content:""; position:absolute; z-index:0; right:-14vw; top:-16vh; width:60vw; height:60vw;
+  background:radial-gradient(closest-side, rgba(242,180,65,.28), rgba(242,180,65,0) 70%);
+  pointer-events:none;
+}
+.hero::after{ /* giant outline word */
+  content:"Heavenly"; position:absolute; z-index:0; left:-2vw; bottom:-4vh;
+  font-family:var(--display); font-weight:700; font-size:clamp(6rem,22vw,20rem);
+  color:transparent; -webkit-text-stroke:1.5px rgba(91,155,213,.14);
+  letter-spacing:-.03em; pointer-events:none; user-select:none; white-space:nowrap;
+}
+.hero-grid{position:relative; z-index:2; display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(24px,5vw,64px); align-items:center}
+.hero h1{font-size:clamp(2.5rem,5.6vw,4.35rem); margin:.9rem 0 1.1rem}
+.hero h1 em{font-style:italic; color:var(--sky-deep); position:relative}
+.hero .lead{font-size:clamp(1.05rem,1.5vw,1.22rem); color:var(--ink-soft); max-width:34ch; margin-bottom:1.7rem}
+.hero-cta{display:flex; flex-wrap:wrap; gap:.8rem; align-items:center}
+.hero-trust{display:flex; gap:1.4rem; margin-top:1.9rem; flex-wrap:wrap}
+.hero-trust div{display:flex; align-items:center; gap:.5rem; font-size:.9rem; color:var(--ink-soft); font-weight:600}
+.hero-trust svg{width:18px; height:18px; color:var(--sky-deep); flex:0 0 auto}
+.hero-art{position:relative}
+.hero-art .art{width:100%; height:auto; filter:drop-shadow(0 30px 40px rgba(16,60,32,.20))}
+.hero-art .emblem{max-width:460px; margin:0 auto; display:block}
+.hero-banner{display:block; width:100%; height:auto; border-radius:calc(var(--radius) + 6px); box-shadow:var(--shadow); margin:0 0 clamp(30px,5vw,54px)}
+img.mark{object-fit:contain}
+.badge-ring{position:absolute; top:-46px; right:18px; width:112px; height:112px; z-index:3; animation:spin 26s linear infinite; filter:drop-shadow(0 6px 12px rgba(47,96,148,.18))}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---------- section shells ---------- */
+section{position:relative; z-index:2; padding:clamp(56px,8vw,96px) 0; scroll-margin-top:88px}
+.band{background:var(--cloud-2); border-top:1px solid var(--line-cool); border-bottom:1px solid var(--line-cool)}
+.sec-head{max-width:62ch; margin:0 0 clamp(28px,4vw,48px)}
+.sec-head h2{font-size:clamp(2rem,3.6vw,3rem); margin:.7rem 0 .8rem}
+.sec-head p{color:var(--ink-soft); font-size:1.08rem}
+
+/* ---------- products ---------- */
+.cards{display:grid; grid-template-columns:repeat(4,1fr); gap:22px}
+.card{
+  background:var(--wit); border:1px solid var(--line); border-radius:var(--radius);
+  padding:26px 24px 28px; box-shadow:var(--shadow-soft);
+  transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+.card:hover{transform:translateY(-6px); box-shadow:var(--shadow); border-color:var(--line-cool)}
+.card .ico{width:64px; height:64px; border-radius:16px; display:grid; place-items:center; margin-bottom:16px; background:var(--cloud-2)}
+.card .ico svg{width:36px; height:36px}
+.card h3{font-size:1.28rem; margin-bottom:.5rem}
+.card p{font-size:.96rem; color:var(--ink-soft); margin:0}
+.card .tagline{margin-top:14px; font-size:.82rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--sky-deep)}
+
+/* ---------- gallery ---------- */
+.gal-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; flex-wrap:wrap; margin-bottom:26px}
+.gal-filters{display:flex; flex-wrap:wrap; gap:.5rem}
+.gal-filters button{
+  font-family:var(--body); font-weight:700; font-size:.86rem; cursor:pointer;
+  padding:.5rem 1.05rem; border-radius:999px; border:1.5px solid var(--line-cool);
+  background:#fff; color:var(--ink-soft); transition:all .18s ease;
+}
+.gal-filters button:hover{border-color:var(--sky-deep); color:var(--sky-ink)}
+.gal-filters button.active{background:var(--sky-deep); color:#fff; border-color:var(--sky-deep)}
+.gal-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px}
+.polaroid{
+  background:var(--wit); border:1px solid var(--line); border-radius:14px;
+  padding:12px 12px 14px; box-shadow:var(--shadow-soft);
+  transform:rotate(var(--tilt,0deg)); transition:transform .22s ease, box-shadow .22s ease;
+}
+.polaroid:hover{transform:rotate(0deg) translateY(-4px); box-shadow:var(--shadow)}
+.polaroid img{aspect-ratio:1/1; object-fit:cover; width:100%; border-radius:8px; background:var(--cloud-2)}
+.polaroid figcaption{font-family:var(--display); font-style:italic; font-size:.92rem; color:var(--ink-soft); margin-top:10px; padding:0 2px}
+.gal-grid figure:nth-child(4n+1){--tilt:-1.4deg}
+.gal-grid figure:nth-child(4n+2){--tilt:1deg}
+.gal-grid figure:nth-child(4n+3){--tilt:-.6deg}
+.gal-grid figure:nth-child(4n+4){--tilt:1.6deg}
+
+/* gallery empty state */
+.gal-empty{
+  border:2px dashed var(--line-cool); border-radius:var(--radius);
+  background:linear-gradient(180deg,#fff, var(--cloud-2));
+  padding:clamp(34px,6vw,64px); text-align:center; max-width:720px; margin:0 auto;
+}
+.gal-empty .cloud{width:96px; height:96px; margin:0 auto 18px}
+.gal-empty h3{font-size:1.6rem; margin-bottom:.6rem}
+.gal-empty p{color:var(--ink-soft); max-width:48ch; margin:0 auto 1.3rem}
+
+/* ---------- about ---------- */
+.about-grid{display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,5vw,64px); align-items:center}
+.about-art{position:relative}
+.about-art svg{width:100%; height:auto; filter:drop-shadow(0 24px 34px rgba(47,96,148,.18))}
+.about blockquote{
+  margin:1.6rem 0 0; padding:1rem 0 1rem 1.4rem; border-left:4px solid var(--gold);
+  font-family:var(--display); font-style:italic; font-size:1.28rem; color:var(--ink); line-height:1.4;
+}
+.facts{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:1.8rem}
+.fact{background:#fff; border:1px solid var(--line); border-radius:16px; padding:16px 16px 18px; text-align:center}
+.fact b{font-family:var(--display); font-size:1.7rem; color:var(--sky-deep); display:block}
+.fact span{font-size:.82rem; color:var(--ink-soft); font-weight:600}
+
+/* ---------- values strip ---------- */
+.values{display:grid; grid-template-columns:repeat(4,1fr); gap:22px}
+.value{display:flex; flex-direction:column; gap:.5rem}
+.value .vico{width:52px; height:52px; border-radius:14px; background:#fff; border:1px solid var(--line-cool); display:grid; place-items:center}
+.value .vico svg{width:28px; height:28px; color:var(--sky-deep)}
+.value h3{font-size:1.12rem}
+.value p{font-size:.93rem; color:var(--ink-soft); margin:0}
+
+/* ---------- contact ---------- */
+.contact-panel{
+  background:linear-gradient(155deg, var(--sky-ink), var(--sky-deep));
+  color:#fff; border-radius:calc(var(--radius) + 6px); padding:clamp(30px,5vw,56px);
+  display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(28px,5vw,56px); align-items:center;
+  box-shadow:var(--shadow); position:relative; overflow:hidden;
+}
+.contact-panel::after{content:""; position:absolute; right:-80px; top:-80px; width:280px; height:280px; border-radius:50%; background:radial-gradient(closest-side, rgba(242,180,65,.35), transparent 70%)}
+.contact-panel h2{color:#fff; font-size:clamp(1.9rem,3.2vw,2.6rem); margin-bottom:.7rem}
+.contact-panel p{color:rgba(255,255,255,.85)}
+.contact-cards{display:flex; flex-direction:column; gap:14px; position:relative; z-index:2}
+.ccard{display:flex; gap:14px; align-items:flex-start; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.18); border-radius:16px; padding:16px 18px}
+.ccard .cico{width:42px; height:42px; border-radius:12px; background:rgba(255,255,255,.16); display:grid; place-items:center; flex:0 0 auto}
+.ccard .cico svg{width:22px; height:22px; color:#fff}
+.ccard b{display:block; font-family:var(--body); font-size:.98rem}
+.ccard small{color:rgba(255,255,255,.78); font-size:.86rem; line-height:1.5}
+.ccard a{color:#fff; text-decoration:underline; text-underline-offset:3px}
+
+/* ---------- footer ---------- */
+footer.site{background:#1F2833; color:#C7D0DB; padding:clamp(40px,6vw,64px) 0 32px}
+.foot-grid{display:grid; grid-template-columns:1.6fr 1fr 1fr; gap:32px; margin-bottom:34px}
+.foot-brand{display:flex; align-items:center; gap:.7rem; margin-bottom:.9rem}
+.foot-brand .mark{width:44px; height:44px}
+.foot-brand b{font-family:var(--display); color:#fff; font-size:1.15rem}
+footer.site h4{font-family:var(--body); text-transform:uppercase; letter-spacing:.14em; font-size:.76rem; color:#8494A6; margin:0 0 14px}
+footer.site ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px}
+footer.site a{color:#C7D0DB; font-size:.95rem}
+footer.site a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1); padding-top:22px; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-size:.85rem; color:#8494A6}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s ease}
+.reveal.in{opacity:1; transform:none}
+.d1{transition-delay:.06s}.d2{transition-delay:.12s}.d3{transition-delay:.18s}.d4{transition-delay:.24s}
+
+/* ---------- responsive ---------- */
+@media (max-width:960px){
+  .hero-grid{grid-template-columns:1fr; text-align:left}
+  .hero-art{max-width:440px; margin:8px auto 0}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .gal-grid{grid-template-columns:repeat(3,1fr)}
+  .about-grid{grid-template-columns:1fr}
+  .about-art{max-width:440px; order:-1; margin:0 auto}
+  .values{grid-template-columns:repeat(2,1fr)}
+  .contact-panel{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  .nav-links{
+    position:absolute; top:74px; left:0; right:0; background:var(--cloud);
+    flex-direction:column; align-items:flex-start; gap:0; padding:8px 20px 18px;
+    border-bottom:1px solid var(--line); box-shadow:var(--shadow-soft);
+    display:none;
+  }
+  .nav-links.open{display:flex}
+  .nav-links a{width:100%; padding:.75rem 0; border-bottom:1px solid var(--line)}
+  .nav-links a::after{display:none}
+  .nav-toggle{display:inline-flex}
+  .nav .btn-ghost{display:none}
+  .cards{grid-template-columns:1fr}
+  .gal-grid{grid-template-columns:repeat(2,1fr)}
+  .values{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(3,1fr)}
+  .foot-grid{grid-template-columns:1fr}
+  .hero .lead{max-width:none}
+}
+</style>
+</head>
+<body>
+
+<!-- paper grain -->
+<svg class="grain" aria-hidden="true" width="100%" height="100%"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0.6  0 0 0 0 0.55  0 0 0 0 0.45  0 0 0 0.06 0"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
+
+<!-- reusable SVG defs: halo-paw mark -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 64 64">
+    <circle cx="32" cy="35" r="27" fill="#12833B"/>
+    <ellipse cx="32" cy="14.5" rx="15" ry="5" fill="none" stroke="#F2B441" stroke-width="3"/>
+    <g fill="#FBF7F0">
+      <circle cx="24" cy="35" r="4.4"/><circle cx="40" cy="35" r="4.4"/>
+      <circle cx="27.5" cy="27.5" r="3.8"/><circle cx="36.5" cy="27.5" r="3.8"/>
+      <path d="M32 34c5.8 0 9.6 4.8 9.6 9 0 3.8-3.4 5.3-6.3 4-2.1-.95-4.6-.95-6.7 0-2.9 1.3-6.3-.2-6.3-4 0-4.2 3.9-9 9.7-9z"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Heavenly Pets PETSHOP home">
+      <img class="mark" src="images/logo-mark.png" alt="Heavenly Pets logo" width="46" height="46" />
+      <span style="display:flex; flex-direction:column">
+        <b>Heavenly Pets</b>
+        <span>Petshop · Meyerton</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      <a href="#shop">Shop</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" aria-label="Visit our Facebook group">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
+        <span>Facebook</span>
+      </a>
+      <button class="nav-toggle" id="navtoggle" aria-label="Menu" aria-expanded="false" aria-controls="navlinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <img class="hero-banner reveal" src="images/banner.png" width="1600" height="800" alt="Heavenly Pets Pet Shop — always friendly, with the best advice" />
+    </div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow reveal">Meyerton's neighbourhood pet shop</span>
+        <h1 class="reveal d1">Everything your pets need,<br><em>under one heavenly roof.</em></h1>
+        <p class="lead reveal d2">Quality pet food, treats and everyday essentials for dogs, cats and the whole family of furry, feathered and finned friends — with honest advice from people who love animals as much as you do.</p>
+        <div class="hero-cta reveal d3">
+          <a class="btn btn-primary" href="#shop">Browse the shop
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Join our community</a>
+        </div>
+        <div class="hero-trust reveal d4">
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Trusted local brands</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Family-run &amp; friendly</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Pets welcome in-store</div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal d2">
+        <!-- rotating halo badge -->
+        <svg class="badge-ring" viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="ring" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+          <text font-family="Karla, sans-serif" font-size="12.2" font-weight="700" letter-spacing="3.4" fill="#C98A1E">
+            <textPath href="#ring" startOffset="0">· HEAVENLY PETS · MEYERTON </textPath>
+          </text>
+        </svg>
+        <!-- brand emblem: the real Heavenly Pets logo -->
+        <img class="art emblem" src="images/logo-mark.png" width="1184" height="1152" alt="Heavenly Pets emblem — a dog, cat and bird beneath a leafy tree" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP / PRODUCTS -->
+  <section id="shop" class="band">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">What we stock</span>
+        <h2>Good things for good animals</h2>
+        <p>From the food bowl to the favourite toy, we keep the shelves stocked with the everyday essentials that keep pets healthy, happy and thoroughly spoiled.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal d1">
+          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 20c0-6 4-10 10-10s10 4 10 10"/><path d="M12 20h24l-2 16a4 4 0 0 1-4 3.5H18A4 4 0 0 1 14 36z"/><path d="M20 27v6M28 27v6"/></svg></div>
+          <h3>Food &amp; Treats</h3>
+          <p>Trusted brands of dog and cat food, plus treats, chews and supplements they'll happily line up for.</p>
+          <div class="tagline">Fuel for happy tails</div>
+        </article>
+        <article class="card reveal d2">
+          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 40s-13-8-13-18a7 7 0 0 1 13-3 7 7 0 0 1 13 3c0 10-13 18-13 18z"/></svg></div>
+          <h3>Pets &amp; Adoption</h3>
+          <p>Small pets and rescues looking for a loving home — and everything you need to welcome a new friend.</p>
+          <div class="tagline">Find a new best friend</div>
+        </article>
+        <article class="card reveal d3">
+          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="4"/><circle cx="30" cy="14" r="4"/><circle cx="38" cy="24" r="3.5"/><circle cx="10" cy="26" r="3.5"/><path d="M24 24c6 0 11 5 11 10 0 4-4 5-7 3.5a9 9 0 0 0-8 0c-3 1.5-7 .5-7-3.5 0-5 5-10 11-10z"/></svg></div>
+          <h3>Accessories &amp; Care</h3>
+          <p>Beds, bowls, collars, leads, toys and grooming essentials to keep every pet comfy and cared for.</p>
+          <div class="tagline">Comfort &amp; play</div>
+        </article>
+        <article class="card reveal d4">
+          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 18l3-8h22l3 8"/><path d="M10 18h28v18a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3z"/><path d="M10 18a4 4 0 0 0 8 0 4 4 0 0 0 8 0 4 4 0 0 0 8 0"/></svg></div>
+          <h3>In the Shop</h3>
+          <p>Fresh stock, seasonal specials and familiar faces. Pop in, say hello, and let us help you find the right thing.</p>
+          <div class="tagline">Come and browse</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="wrap">
+      <div class="gal-head">
+        <div class="sec-head reveal" style="margin-bottom:0">
+          <span class="eyebrow">From our community</span>
+          <h2>The Heavenly Pets gallery</h2>
+          <p>Snapshots straight from our Facebook group — new arrivals, happy customers and the odd four-legged superstar.</p>
+        </div>
+        <div class="gal-filters reveal d2" id="gal-filters" hidden>
+          <button class="active" data-cat="all">All</button>
+          <button data-cat="food">Food &amp; Treats</button>
+          <button data-cat="pets">Pets &amp; Adoption</button>
+          <button data-cat="accessories">Accessories &amp; Care</button>
+          <button data-cat="store">In the Shop</button>
+        </div>
+      </div>
+
+      <div class="gal-grid" id="gal-grid" aria-live="polite"></div>
+
+      <!-- shown when no photos have been ingested yet -->
+      <div class="gal-empty reveal" id="gal-empty">
+        <svg class="cloud" viewBox="0 0 96 96" fill="none" aria-hidden="true">
+          <ellipse cx="48" cy="62" rx="38" ry="16" fill="#EDF6EF" stroke="#D9EBDF" stroke-width="2"/>
+          <circle cx="34" cy="52" r="16" fill="#FFFFFF" stroke="#D9EBDF" stroke-width="2"/>
+          <circle cx="56" cy="48" r="20" fill="#FFFFFF" stroke="#D9EBDF" stroke-width="2"/>
+          <ellipse cx="48" cy="22" rx="20" ry="6" fill="none" stroke="#F2B441" stroke-width="4"/>
+          <g fill="#12833B"><circle cx="42" cy="50" r="2.6"/><circle cx="54" cy="49" r="2.6"/></g>
+        </svg>
+        <h3>Our photo album is on its way</h3>
+        <p>We're gathering our latest photos from the Heavenly Pets Facebook community. In the meantime, come and see what's new over on our group.</p>
+        <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
+          See our latest posts
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="band about">
+    <div class="wrap about-grid">
+      <div class="about-copy reveal">
+        <span class="eyebrow">Our story</span>
+        <h2>A little pet shop with a big heart</h2>
+        <p>Heavenly Pets PETSHOP is a family-run pet shop in Meyerton, here for the dogs, cats and small companions that make our homes complete. We keep our shelves stocked with the food and essentials you rely on, and we're always happy to share honest, no-pressure advice.</p>
+        <p>Around the shop we've grown a warm little community on Facebook, where we post new stock, pets looking for homes, seasonal specials and plenty of adorable photos. Whether you're a first-time pet parent or an old hand, you're welcome here.</p>
+        <blockquote>Because every pet deserves a heavenly life.</blockquote>
+        <div class="facts">
+          <div class="fact"><b>Meyerton</b><span>Where to find us</span></div>
+          <div class="fact"><b>Family</b><span>Owned &amp; run</span></div>
+          <div class="fact"><b>All pets</b><span>Big &amp; small</span></div>
+        </div>
+      </div>
+      <div class="about-art reveal d2">
+        <svg viewBox="0 0 460 420" role="img" aria-label="A friendly shopfront with a paw sign, under clouds and a golden sun">
+          <defs>
+            <linearGradient id="storeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#20B14F"/><stop offset="1" stop-color="#12833B"/></linearGradient>
+          </defs>
+          <rect x="0" y="0" width="460" height="420" rx="34" fill="#EDF6EF"/>
+          <circle cx="372" cy="86" r="40" fill="#F2B441" opacity=".9"/>
+          <g fill="#FFFFFF" stroke="#DCE6F1" stroke-width="2">
+            <circle cx="96" cy="86" r="26"/><circle cx="128" cy="78" r="30"/><circle cx="162" cy="88" r="22"/>
+          </g>
+          <!-- shop -->
+          <rect x="86" y="150" width="288" height="196" rx="12" fill="#FFFFFF" stroke="#DCE6F1" stroke-width="2"/>
+          <path d="M74 150l156-46 156 46z" fill="url(#storeG)"/>
+          <rect x="120" y="132" width="220" height="30" rx="6" fill="#12833B"/>
+          <text x="230" y="153" text-anchor="middle" font-family="Fraunces, serif" font-size="18" font-weight="600" fill="#FFF4DC">Heavenly Pets</text>
+          <!-- door + windows -->
+          <rect x="206" y="238" width="48" height="108" rx="6" fill="#EDF6EF" stroke="#CFE3D4" stroke-width="2"/>
+          <circle cx="246" cy="292" r="3" fill="#12833B"/>
+          <rect x="112" y="200" width="72" height="60" rx="8" fill="#DCEAF7" stroke="#CFE3D4" stroke-width="2"/>
+          <rect x="276" y="200" width="72" height="60" rx="8" fill="#DCEAF7" stroke="#CFE3D4" stroke-width="2"/>
+          <!-- paw sign -->
+          <g transform="translate(148 224)" fill="#12833B"><circle cx="0" cy="0" r="4"/><circle cx="10" cy="-3" r="4"/><circle cx="19" cy="2" r="3.4"/><circle cx="-8" cy="3" r="3.4"/><path d="M6 4c5 0 9 4 9 8 0 3-3 4-5.5 3a7 7 0 0 0-6 0C1 20-2 19-2 16c0-4 4-8 8-8z"/></g>
+          <!-- heart in window -->
+          <path d="M312 224c5-8 17-3 17 5 0 7-17 15-17 15s-17-8-17-15c0-8 12-13 17-5z" fill="#EF8A78"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section id="values">
+    <div class="wrap">
+      <div class="sec-head reveal" style="text-align:center; margin-left:auto; margin-right:auto">
+        <span class="eyebrow" style="justify-content:center">Why pet parents choose us</span>
+        <h2>Small shop. Big care.</h2>
+      </div>
+      <div class="values">
+        <div class="value reveal d1">
+          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg></div>
+          <h3>Local &amp; family-run</h3>
+          <p>A familiar Meyerton face who remembers you and your pets by name.</p>
+        </div>
+        <div class="value reveal d2">
+          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9M12 7v5l3 2"/></svg></div>
+          <h3>Honest advice</h3>
+          <p>No hard sell — just genuine help finding what's right for your animal.</p>
+        </div>
+        <div class="value reveal d3">
+          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM21 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
+          <h3>Community first</h3>
+          <p>An active Facebook group sharing stock, adoptions and pet-parent tips.</p>
+        </div>
+        <div class="value reveal d4">
+          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="2.2"/><circle cx="15" cy="7" r="2.2"/><circle cx="19" cy="12" r="2"/><circle cx="5" cy="13" r="2"/><path d="M12 13c3 0 5.5 2.5 5.5 5 0 2-2 2.6-3.5 1.8a4.5 4.5 0 0 0-4 0C8.5 20.6 6.5 20 6.5 18c0-2.5 2.5-5 5.5-5z"/></svg></div>
+          <h3>Pets welcome</h3>
+          <p>Bring your best friend along — well-behaved pets are always welcome in-store.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <!-- Details verified from the shop's official live site (heavenlypetshop.co.za) + Montego promo graphic. -->
+  <section id="contact" class="band">
+    <div class="wrap">
+      <div class="contact-panel reveal">
+        <div>
+          <span class="eyebrow" style="color:#FFE6B0">Come say hello</span>
+          <h2>Visit us in Meyerton</h2>
+          <p>Pop into the shop, or reach us any time through our Facebook community — it's the quickest way to see what's fresh on the shelves, ask a question, or spot a pet looking for a home.</p>
+          <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" style="margin-top:.4rem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
+            Message us on Facebook
+          </a>
+        </div>
+        <div class="contact-cards">
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div><b>Find us</b><small>49B c/o Loch &amp; Holiday St,<br>Meyerton, 1961, Gauteng<br><a href="https://maps.app.goo.gl/4KNujK8ABQftjrLJ7" target="_blank" rel="noopener">Get directions →</a></small></div>
+          </div>
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><b>Call or WhatsApp</b><small><a href="tel:+27796952929">079&nbsp;695&nbsp;2929</a> · <a href="https://wa.me/27796952929" target="_blank" rel="noopener">Chat on WhatsApp →</a></small></div>
+          </div>
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+            <div><b>Email</b><small><a href="mailto:heavenlypetshopmeyerton@gmail.com">heavenlypetshopmeyerton@gmail.com</a></small></div>
+          </div>
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg></div>
+            <div><b>Facebook community</b><small><a href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Heavenly Pets PETSHOP group →</a></small></div>
+          </div>
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3h-3v13a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V10.5A5.5 5.5 0 1 0 16.5 16V8.9a6.5 6.5 0 0 0 4 1.35V7.2a3.7 3.7 0 0 1-4-3.2z"/></svg></div>
+            <div><b>TikTok</b><small><a href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener">@heavenly_pets_petshop →</a></small></div>
+          </div>
+          <div class="ccard">
+            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9M12 7v5l3 2"/></svg></div>
+            <div><b>Trading hours</b><small>Message us on Facebook or WhatsApp for today's hours.</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
+          <b>Heavenly Pets PETSHOP</b>
+        </div>
+        <p style="max-width:38ch; color:#9CA9B8">Meyerton's neighbourhood pet shop — quality food, treats and care for the pets who make life better.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find us</h4>
+        <ul>
+          <li><span style="color:#9CA9B8">49B c/o Loch &amp; Holiday St,<br>Meyerton, 1961</span></li>
+          <li><a href="tel:+27796952929">079 695 2929</a> · <a href="https://wa.me/27796952929" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:heavenlypetshopmeyerton@gmail.com">heavenlypetshopmeyerton@gmail.com</a></li>
+          <li><a href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Heavenly Pets PETSHOP. All rights reserved.</span>
+      <span>Made with care for the animals of Meyerton.</span>
+    </div>
+  </div>
+</footer>
+
+<noscript>
+  <style>.reveal{opacity:1 !important; transform:none !important} #gal-empty{display:block}</style>
+</noscript>
+
+<!-- gallery content (auto-generated by scraper/ingest.mjs) -->
+<script src="gallery-data.js"></script>
+<script>
+(function(){
+  "use strict";
+  // footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // mobile nav
+  var toggle = document.getElementById('navtoggle');
+  var links = document.getElementById('navlinks');
+  toggle.addEventListener('click', function(){
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', function(e){
+    if (e.target.tagName === 'A'){ links.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }
+  });
+
+  // ---- gallery render ----
+  var GAL = Array.isArray(window.GALLERY) ? window.GALLERY : [];
+  var grid = document.getElementById('gal-grid');
+  var empty = document.getElementById('gal-empty');
+  var filters = document.getElementById('gal-filters');
+
+  function render(cat){
+    grid.innerHTML = '';
+    var items = GAL.filter(function(g){ return cat === 'all' || g.c === cat; });
+    var frag = document.createDocumentFragment();
+    items.forEach(function(g){
+      var fig = document.createElement('figure');
+      fig.className = 'polaroid';
+      var img = document.createElement('img');
+      img.src = g.f; img.alt = g.cap || 'Heavenly Pets PETSHOP photo';
+      img.loading = 'lazy'; img.decoding = 'async';
+      fig.appendChild(img);
+      if (g.cap){
+        var cap = document.createElement('figcaption');
+        cap.textContent = g.cap;
+        fig.appendChild(cap);
+      }
+      frag.appendChild(fig);
+    });
+    grid.appendChild(frag);
+  }
+
+  if (GAL.length > 0){
+    empty.style.display = 'none';
+    filters.hidden = false;
+    render('all');
+    filters.addEventListener('click', function(e){
+      var b = e.target.closest('button'); if(!b) return;
+      filters.querySelectorAll('button').forEach(function(x){ x.classList.remove('active'); });
+      b.classList.add('active');
+      render(b.dataset.cat);
+    });
+  } else {
+    // no photos yet — keep the friendly empty state, hide the empty grid + filters
+    grid.style.display = 'none';
+    filters.hidden = true;
+  }
+
+  // ---- scroll reveals ----
+  // Small units only (never a huge container). IntersectionObserver drives the
+  // animation, but a passive scroll/load "sweep" guarantees nothing is ever left
+  // permanently invisible — covers fast scrolls, End key and anchor jumps where
+  // the observer can batch away a quick in-and-out.
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var revealables = [].slice.call(document.querySelectorAll('.reveal'));
+  function show(el){ el.classList.add('in'); }
+  if (reduce || !('IntersectionObserver' in window)){
+    revealables.forEach(show);
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){ show(en.target); io.unobserve(en.target); }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
+    revealables.forEach(function(el){ io.observe(el); });
+
+    var sweep = function(){
+      for (var i = revealables.length - 1; i >= 0; i--){
+        var el = revealables[i];
+        if (el.classList.contains('in')) continue;
+        if (el.getBoundingClientRect().top < window.innerHeight * 0.94){
+          show(el); io.unobserve(el);
+        }
+      }
+    };
+    window.addEventListener('scroll', sweep, { passive: true });
+    window.addEventListener('load', sweep);
+    sweep();
+  }
+})();
+</script>
+</body>
+</html>

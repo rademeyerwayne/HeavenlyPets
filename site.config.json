@@ -1,0 +1,15 @@
+{
+  "name": "HeavenlyPets",
+  "facebookUrl": "https://www.facebook.com/groups/2747893658723247",
+  "pageId": "2747893658723247",
+  "status": "demo",
+  "source": "crawl",
+  "focus": "Pet food and pet consumales petshop",
+  "schedule": {
+    "mode": "off",
+    "lastRun": null
+  },
+  "createdAt": "2026-07-08T18:40:36.078Z",
+  "lastSync": null,
+  "syncedPhotoIds": []
+}

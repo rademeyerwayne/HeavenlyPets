@@ -1,0 +1,55 @@
+# images/ manifest
+
+Self-hosted from the Heavenly Pets PETSHOP Facebook group. One line per image.
+
+- `images/hp-001.jpg` — In the Shop — (no caption)
+- `images/hp-002.jpg` — In the Shop — (no caption)
+- `images/hp-003.jpg` — In the Shop — (no caption)
+- `images/hp-004.jpg` — In the Shop — (no caption)
+- `images/hp-005.jpg` — In the Shop — (no caption)
+- `images/hp-006.jpg` — In the Shop — (no caption)
+- `images/hp-007.jpg` — In the Shop — (no caption)
+- `images/hp-008.jpg` — In the Shop — (no caption)
+- `images/hp-009.jpg` — In the Shop — (no caption)
+- `images/hp-010.jpg` — In the Shop — (no caption)
+- `images/hp-011.jpg` — In the Shop — (no caption)
+- `images/hp-012.jpg` — In the Shop — (no caption)
+- `images/hp-013.jpg` — In the Shop — (no caption)
+- `images/hp-014.jpg` — In the Shop — (no caption)
+- `images/hp-015.jpg` — In the Shop — (no caption)
+- `images/hp-017.jpg` — In the Shop — (no caption)
+- `images/hp-018.jpg` — In the Shop — (no caption)
+- `images/hp-019.jpg` — In the Shop — (no caption)
+- `images/hp-020.jpg` — In the Shop — (no caption)
+- `images/hp-021.jpg` — In the Shop — (no caption)
+- `images/hp-022.jpg` — In the Shop — (no caption)
+- `images/hp-023.jpg` — In the Shop — (no caption)
+- `images/hp-024.jpg` — In the Shop — (no caption)
+- `images/hp-025.jpg` — In the Shop — (no caption)
+- `images/hp-026.jpg` — In the Shop — (no caption)
+- `images/hp-027.jpg` — In the Shop — (no caption)
+- `images/hp-028.jpg` — In the Shop — (no caption)
+- `images/hp-029.jpg` — In the Shop — (no caption)
+- `images/hp-030.jpg` — In the Shop — (no caption)
+- `images/hp-031.jpg` — In the Shop — (no caption)
+- `images/hp-032.jpg` — Pets & Adoption — Colourful aquarium fish stones — give your tank a splash of colour. Eight colours in store.
+- `images/hp-033.jpg` — Accessories & Care — Fluorescent marine aquarium decorations and clownfish designs.
+- `images/hp-034.jpg` — Accessories & Care — Mini scissor litter scoops — scooping made easy.
+- `images/hp-035.jpg` — Accessories & Care — Plastic litter scoops for a clean, fresh pet space.
+- `images/hp-036.jpg` — Food & Treats — Montego goodies in stock — Bags O' Wags and Paw Patrol dog treats.
+- `images/hp-037.jpg` — Food & Treats — Montego Paw Patrol 2-in-1 dog shampoo, 250ml.
+- `images/hp-038.jpg` — Food & Treats — Montego dog treats — spoil your pup with fan favourites.
+- `images/hp-039.jpg` — In the Shop — Nutrimed pet supplements — premium care, currently half price.
+- `images/hp-040.jpg` — Accessories & Care — Pet cooling mat bedding — keeps pets cool on hot days, no water or electricity. Sizes M, L, XL.
+- `images/hp-041.jpg` — Accessories & Care — Hooded cat litter box — private, odour-controlled design.
+- `images/hp-042.jpg` — In the Shop — Cat climbing stands and scratchers for natural climbing instincts.
+- `images/hp-043.jpg` — In the Shop — Metal cages, perches and feeders for parakeets, canaries and lovebirds.
+- `images/hp-044.jpg` — In the Shop — Dual cages, plastic trays and stainless-steel bowls for birds.
+- `images/hp-045.jpg` — Pets & Adoption — Bird nests, feeders and toys in store.
+- `images/hp-046.jpg` — Pets & Adoption — A big range of high-quality bird cages and accessories.
+- `images/hp-047.jpg` — Pets & Adoption — Reptile essentials for bearded dragons, geckos and snakes.
+- `images/hp-048.jpg` — In the Shop — Natural hides and desert-themed terrarium accessories.
+- `images/hp-049.jpg` — Food & Treats — Reptile feeding bowls, small to XL.
+- `images/hp-050.jpg` — Pets & Adoption — Terrarium accessories for a happy, healthy reptile.
+- `images/hp-051.jpg` — Food & Treats — Weekly live feed — crickets, mealworms and superworms for reptiles and birds.
+- `images/hp-052.jpg` — In the Shop — Some of the friendly faces at Heavenly Pets Petshop.
