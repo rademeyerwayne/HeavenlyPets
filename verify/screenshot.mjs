@@ -14,29 +14,32 @@ const SHOTS = path.join(ROOT, 'verify', 'screenshots');
 const INDEX = pathToFileURL(path.join(ROOT, 'index.html')).href;
 fs.mkdirSync(SHOTS, { recursive: true });
 
+const LOGO = 'data:image/png;base64,' + fs.readFileSync(path.join(ROOT, 'images', 'logo-mark.png')).toString('base64');
 const OG_HTML = `<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Nunito+Sans:wght@700;800&display=swap" rel="stylesheet">
 <style>
   html,body{margin:0}
-  .card{width:1200px;height:630px;display:flex;flex-direction:column;justify-content:center;padding:0 96px;
-    background:radial-gradient(120% 90% at 80% 10%, #FFF4DC 0%, #EEF4FA 45%, #DDE9F5 100%);
-    font-family:Karla,sans-serif;color:#28303B;box-sizing:border-box;position:relative;overflow:hidden}
-  .halo{position:absolute;right:-60px;top:-40px;width:520px;height:520px;border-radius:50%;
-    background:radial-gradient(closest-side, rgba(242,180,65,.42), transparent 70%)}
-  .eyebrow{font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:#C98A1E;font-size:22px;margin-bottom:18px}
-  h1{font-family:Fraunces,serif;font-weight:600;font-size:78px;line-height:1.03;margin:0 0 22px;letter-spacing:-.01em;max-width:16ch}
-  h1 em{font-style:italic;color:#2F6094}
-  .row{display:flex;align-items:center;gap:16px;margin-top:8px}
-  .mark{width:78px;height:78px;filter:drop-shadow(0 6px 14px rgba(47,96,148,.3))}
-  .name{font-family:Fraunces,serif;font-weight:600;font-size:30px}
-  .loc{font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#2F6094;font-size:16px}
+  .card{width:1200px;height:630px;display:flex;flex-direction:column;justify-content:center;padding:0 92px;
+    background:radial-gradient(120% 90% at 82% 8%, #EAF7EE 0%, #FBF7F0 46%, #F4ECDC 100%);
+    font-family:"Nunito Sans",sans-serif;color:#233028;box-sizing:border-box;position:relative;overflow:hidden}
+  .halo{position:absolute;right:-40px;top:-60px;width:520px;height:520px;border-radius:50%;
+    background:radial-gradient(closest-side, rgba(32,177,79,.28), transparent 70%)}
+  .halo2{position:absolute;left:-90px;bottom:-140px;width:420px;height:420px;border-radius:50%;
+    background:radial-gradient(closest-side, rgba(242,180,65,.30), transparent 70%)}
+  .eyebrow{font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#12833B;font-size:21px;margin-bottom:18px;position:relative}
+  h1{font-family:Fraunces,serif;font-weight:600;font-size:76px;line-height:1.02;margin:0 0 26px;letter-spacing:-.015em;max-width:15ch;position:relative}
+  h1 em{font-style:italic;color:#12833B}
+  .row{display:flex;align-items:center;gap:18px;position:relative}
+  .mark{width:86px;height:86px;object-fit:contain;filter:drop-shadow(0 8px 16px rgba(15,51,32,.28))}
+  .name{font-family:Fraunces,serif;font-weight:600;font-size:30px;color:#0F3320}
+  .loc{font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#12833B;font-size:15px}
 </style></head><body>
 <div class="card">
-  <div class="halo"></div>
-  <div class="eyebrow">Meyerton's neighbourhood pet shop</div>
+  <div class="halo"></div><div class="halo2"></div>
+  <div class="eyebrow">Meyerton's neighbourhood pet emporium</div>
   <h1>Everything your pets need, <em>under one heavenly roof.</em></h1>
   <div class="row">
-    <svg class="mark" viewBox="0 0 64 64"><circle cx="32" cy="35" r="27" fill="#3E7CB1"/><ellipse cx="32" cy="14.5" rx="15" ry="5" fill="none" stroke="#F2B441" stroke-width="3"/><g fill="#FBF7F0"><circle cx="24" cy="35" r="4.4"/><circle cx="40" cy="35" r="4.4"/><circle cx="27.5" cy="27.5" r="3.8"/><circle cx="36.5" cy="27.5" r="3.8"/><path d="M32 34c5.8 0 9.6 4.8 9.6 9 0 3.8-3.4 5.3-6.3 4-2.1-.95-4.6-.95-6.7 0-2.9 1.3-6.3-.2-6.3-4 0-4.2 3.9-9 9.7-9z"/></g></svg>
+    <img class="mark" src="${LOGO}" alt="">
     <div><div class="name">Heavenly Pets PETSHOP</div><div class="loc">Meyerton · Gauteng</div></div>
   </div>
 </div></body></html>`;

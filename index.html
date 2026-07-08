@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="en-ZA">
+<html lang="af">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Heavenly Pets PETSHOP — Meyerton's neighbourhood pet shop</title>
-<meta name="description" content="Heavenly Pets PETSHOP in Meyerton — quality pet food, treats, accessories and care for dogs, cats and small pets, plus a friendly community that shares new stock, adoptions and advice." />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Heavenly Pets PETSHOP — Meyerton se troeteldierwinkel vir honde, katte, voëls, visse, reptiele en meer</title>
+<meta name="description" content="Heavenly Pets PETSHOP in Meyerton — 'n groot reeks kwaliteit kos, lekkernye, hokke, akwariums, toebehore en lewende voer vir honde, katte, voëls, visse, reptiele en klein diere. Verskeie verskaffers, eerlike advies en 'n vriendelike gemeenskap. Bestel op WhatsApp of besoek ons in die winkel." />
 <meta name="theme-color" content="#12833B" />
-<meta name="author" content="Heavenly Pets PETSHOP" />
-<link rel="canonical" href="https://heavenlypets.co.za/" />
+<meta name="color-scheme" content="light" />
 
-<!-- Open Graph / social -->
-<meta property="og:type" content="business.business" />
-<meta property="og:site_name" content="Heavenly Pets PETSHOP" />
-<meta property="og:title" content="Heavenly Pets PETSHOP — Meyerton's neighbourhood pet shop" />
-<meta property="og:description" content="Quality pet food, treats, accessories and care for dogs, cats and small pets in Meyerton — with a caring community around it." />
-<meta property="og:url" content="https://heavenlypets.co.za/" />
-<meta property="og:image" content="images/og-cover.png" />
-<meta property="og:locale" content="en_ZA" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Heavenly Pets PETSHOP — Meyerton" />
-<meta name="twitter:description" content="Everything your pets need, under one heavenly roof." />
-<meta name="twitter:image" content="images/og-cover.png" />
-
-<!-- Favicon: real Heavenly Pets emblem -->
 <link rel="icon" type="image/png" href="images/logo-mark.png" />
 <link rel="apple-touch-icon" href="images/logo-mark.png" />
 
-<!-- Fonts: Fraunces (display serif) + Karla (body) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Heavenly Pets PETSHOP — Meyerton se troeteldierwinkel" />
+<meta property="og:description" content="'n Groot reeks kwaliteit kos, hokke, akwariums, toebehore & lewende voer vir elke soort troeteldier. Verskeie verskaffers, eerlike advies, vriendelike gesigte." />
+<meta property="og:image" content="images/og-cover.png" />
+<meta property="og:url" content="https://www.heavenlypetshop.co.za/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Heavenly Pets PETSHOP — Meyerton" />
+<meta name="twitter:description" content="Alles wat jou troeteldiere nodig het, onder een hemelse dak. Meyerton, Gauteng." />
+<meta name="twitter:image" content="images/og-cover.png" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,600&display=swap" rel="stylesheet" />
 
-<!-- Structured data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "PetStore",
   "name": "Heavenly Pets PETSHOP",
-  "description": "Neighbourhood pet shop in Meyerton — pet food, treats, accessories and care for dogs, cats and small pets.",
-  "image": "https://heavenlypets.co.za/images/og-cover.png",
-  "url": "https://heavenlypets.co.za/",
+  "slogan": "Always friendly… with the best advice.",
+  "description": "Neighbourhood pet shop in Meyerton — a big range of pet food, treats, cages, aquariums, accessories, live feed and care for dogs, cats, birds, fish, reptiles and small animals.",
+  "image": "https://www.heavenlypetshop.co.za/images/og-cover.png",
+  "logo": "https://www.heavenlypetshop.co.za/images/logo-mark.png",
+  "url": "https://www.heavenlypetshop.co.za/",
+  "telephone": "+27796952929",
+  "email": "heavenlypetshopmeyerton@gmail.com",
   "areaServed": "Meyerton, Gauteng, South Africa",
   "address": {
     "@type": "PostalAddress",
@@ -49,692 +46,728 @@
     "postalCode": "1961",
     "addressCountry": "ZA"
   },
-  "telephone": "+27796952929",
-  "email": "heavenlypetshopmeyerton@gmail.com",
   "sameAs": [
     "https://www.facebook.com/groups/2747893658723247",
     "https://www.tiktok.com/@heavenly_pets_petshop",
-    "https://www.heavenlypetshop.co.za/"
+    "https://wa.me/27796952929"
   ]
 }
 </script>
 
 <style>
 :root{
-  /* Heavenly Pets — authentic brand: green + charcoal, warm cream, halo gold.
-     NOTE: the --sky* names are kept for continuity but now hold BRAND GREEN,
-     so every rule that referenced them recolours coherently. */
-  --cloud:#FBF7F0;      /* warm cream page */
-  --cloud-2:#EDF6EF;    /* soft mint alt band */
-  --wit:#FFFFFF;        /* card surface */
-  --ink:#232A26;        /* charcoal text (brand #343434, faint green) */
-  --ink-soft:#586158;   /* muted text */
-  --sky:#20B14F;        /* BRAND green (vivid accent) */
-  --sky-deep:#12833B;   /* accessible green for text/buttons */
-  --sky-ink:#0B5A28;    /* deepest green for gradients / hovers */
-  --gold:#F2B441;       /* halo gold */
-  --gold-deep:#B9821C;  /* accessible gold for small text */
-  --coral:#EF8A78;      /* warm coral for hearts/pets */
-  --coral-deep:#D45C48;
-  --line:#E7DFD2;       /* hairlines on cream */
-  --line-cool:#D9EBDF;  /* hairlines on mint/green */
-  --fb:#1877F2;         /* the one off-palette brand element */
-  --shadow: 0 18px 40px -22px rgba(16,60,32,.45);
-  --shadow-soft: 0 10px 30px -18px rgba(16,60,32,.32);
-  --radius:22px;
-  --maxw:1180px;
-  --display:"Fraunces", Georgia, serif;
-  --body:"Karla", "Segoe UI", sans-serif;
+  --forest:#0F3320; --green:#20B14F; --green-600:#12833B; --green-700:#0B5A28;
+  --green-050:#EAF7EE; --green-100:#CFEBD8; --cream:#FBF7F0; --sand:#F4ECDC; --paper:#FFFFFF;
+  --ink:#233028; --ink-soft:#54615A; --gold:#F2B441; --gold-deep:#8A6109; --coral:#EF7D63;
+  --line:#E9E1D2; --line-green:#D2E7D9; --wa:#25D366; --fb:#1877F2;
+  --shadow-sm:0 8px 20px -12px rgba(15,51,32,.40); --shadow:0 26px 54px -26px rgba(15,51,32,.42);
+  --shadow-lg:0 50px 90px -40px rgba(15,51,32,.55);
+  --r:18px; --r-lg:26px; --r-xl:36px; --maxw:1200px;
+  --display:"Fraunces", Georgia, "Times New Roman", serif;
+  --body:"Nunito Sans", "Segoe UI", system-ui, sans-serif;
 }
-
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0; background:var(--cloud); color:var(--ink);
-  font-family:var(--body); font-size:17px; line-height:1.65;
-  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-  overflow-x:hidden;
-}
-@media (prefers-reduced-motion: reduce){
-  html{scroll-behavior:auto}
-  *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important}
-}
+html{scroll-behavior:smooth; scroll-padding-top:92px}
+body{margin:0; background:var(--cream); color:var(--ink); font-family:var(--body); font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; overflow-x:hidden}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *{animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important} }
 img{max-width:100%; display:block}
-a{color:var(--sky-deep); text-decoration:none}
-h1,h2,h3{font-family:var(--display); font-weight:600; line-height:1.08; letter-spacing:-.01em; margin:0}
+a{color:var(--green-600); text-decoration:none}
+h1,h2,h3,h4{font-family:var(--display); font-weight:600; line-height:1.05; letter-spacing:-.015em; margin:0}
 p{margin:0 0 1rem}
+:focus-visible{outline:3px solid var(--green-600); outline-offset:3px; border-radius:6px}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 clamp(18px,5vw,44px)}
+.eyebrow{font-family:var(--body); font-weight:800; text-transform:uppercase; letter-spacing:.2em; font-size:.72rem;
+  color:var(--green-700); display:inline-flex; align-items:center; gap:.55rem; flex-wrap:wrap}
+.eyebrow::before{content:""; width:22px; height:2px; background:var(--gold); border-radius:2px}
+.eyebrow.on-dark{color:var(--gold)}
+.ico{width:24px; height:24px; flex:0 0 auto; stroke-width:1.9}
 
-.wrap{max-width:var(--maxw); margin:0 auto; padding:0 clamp(20px,5vw,48px)}
-.eyebrow{
-  font-family:var(--body); font-weight:700; text-transform:uppercase;
-  letter-spacing:.22em; font-size:.72rem; color:var(--gold-deep);
-  display:inline-flex; align-items:center; gap:.55rem;
-}
-.eyebrow::before{content:""; width:26px; height:2px; background:var(--gold); border-radius:2px}
-.btn{
-  display:inline-flex; align-items:center; gap:.55rem; cursor:pointer;
-  font-family:var(--body); font-weight:700; font-size:.98rem;
-  padding:.85rem 1.5rem; border-radius:999px; border:2px solid transparent;
-  transition:transform .18s ease, box-shadow .18s ease, background .18s ease, color .18s ease;
-  white-space:nowrap;
-}
-.btn:hover{transform:translateY(-2px)}
-.btn-primary{background:var(--sky-deep); color:var(--wit); box-shadow:var(--shadow-soft)}
-.btn-primary:hover{background:var(--sky-ink)}
-.btn-ghost{background:transparent; color:var(--sky-ink); border-color:var(--line-cool)}
-.btn-ghost:hover{border-color:var(--sky-deep); background:#fff}
-.btn-fb{background:var(--fb); color:#fff}
-.btn-fb:hover{background:#1461c9}
+.btn{display:inline-flex; align-items:center; justify-content:center; gap:.55rem; cursor:pointer; font-family:var(--body);
+  font-weight:800; font-size:.98rem; padding:.9rem 1.55rem; border-radius:999px; border:2px solid transparent;
+  transition:transform .18s ease, box-shadow .2s ease, background .2s ease, color .2s ease, border-color .2s ease; white-space:nowrap; line-height:1}
+.btn .ico{width:20px; height:20px}
+.btn:hover{transform:translateY(-2px)} .btn:active{transform:translateY(0)}
+.btn-primary{background:var(--green-600); color:#fff; box-shadow:var(--shadow-sm)}
+.btn-primary:hover{background:var(--green-700); box-shadow:var(--shadow)}
+.btn-wa{background:var(--wa); color:#08351b; box-shadow:var(--shadow-sm)} .btn-wa:hover{background:#1ebe5b}
+.btn-ghost{background:transparent; color:var(--forest); border-color:var(--line-green)} .btn-ghost:hover{border-color:var(--green-600); background:#fff}
+.btn-lg{padding:1.05rem 1.9rem; font-size:1.05rem}
 
-/* paper grain overlay */
-.grain{position:fixed; inset:0; z-index:1; pointer-events:none; opacity:.5; mix-blend-mode:multiply}
+.socials{display:inline-flex; align-items:center; gap:.5rem}
+.soc{width:42px; height:42px; border-radius:50%; display:grid; place-items:center; background:rgba(255,255,255,.14); color:#fff;
+  transition:transform .18s ease, background .2s ease, color .2s ease}
+.soc svg{width:20px; height:20px}
+.soc:hover{transform:translateY(-2px)}
+.soc.fb:hover{background:var(--fb); color:#fff} .soc.tk:hover{background:#000; color:#fff} .soc.wa:hover{background:var(--wa); color:#08351b}
 
-/* ---------- header ---------- */
-header.site{
-  position:sticky; top:0; z-index:50;
-  background:rgba(251,247,240,.82); backdrop-filter:saturate(140%) blur(12px);
-  border-bottom:1px solid var(--line);
-}
-.nav{display:flex; align-items:center; gap:1.2rem; height:74px}
-.brand{display:flex; align-items:center; gap:.7rem; margin-right:auto; color:var(--ink)}
-.brand .mark{width:46px; height:46px; flex:0 0 auto; filter:drop-shadow(0 4px 10px rgba(47,96,148,.25))}
-.brand b{font-family:var(--display); font-weight:600; font-size:1.18rem; line-height:1; letter-spacing:-.01em; display:block}
-.brand span{font-size:.66rem; letter-spacing:.24em; text-transform:uppercase; color:var(--gold-deep); font-weight:700}
-.nav-links{display:flex; align-items:center; gap:1.5rem}
-.nav-links a{color:var(--ink); font-weight:600; font-size:.96rem; position:relative; padding:.2rem 0}
-.nav-links a::after{content:""; position:absolute; left:0; bottom:-3px; height:2px; width:0; background:var(--gold); transition:width .22s ease}
-.nav-links a:hover::after{width:100%}
-.nav-cta{display:flex; align-items:center; gap:.6rem}
-.nav-toggle{display:none; background:none; border:0; cursor:pointer; padding:.4rem; color:var(--ink)}
-.nav-toggle svg{width:28px; height:28px}
+/* language toggle */
+.lang{display:inline-flex; align-items:center; background:rgba(255,255,255,.16); border-radius:999px; padding:3px; gap:2px}
+.lang-btn{font-family:var(--body); font-weight:800; font-size:.76rem; letter-spacing:.02em; color:#eafff1; background:transparent;
+  border:none; cursor:pointer; padding:.34rem .78rem; border-radius:999px; line-height:1; transition:background .2s ease, color .2s ease}
+.lang-btn.active{background:#fff; color:var(--green-700)}
 
-/* ---------- hero ---------- */
-.hero{position:relative; overflow:hidden; padding:clamp(48px,8vw,104px) 0 clamp(40px,7vw,88px)}
-.hero::before{ /* soft heavenly light */
-  content:""; position:absolute; z-index:0; right:-14vw; top:-16vh; width:60vw; height:60vw;
-  background:radial-gradient(closest-side, rgba(242,180,65,.28), rgba(242,180,65,0) 70%);
-  pointer-events:none;
-}
-.hero::after{ /* giant outline word */
-  content:"Heavenly"; position:absolute; z-index:0; left:-2vw; bottom:-4vh;
-  font-family:var(--display); font-weight:700; font-size:clamp(6rem,22vw,20rem);
-  color:transparent; -webkit-text-stroke:1.5px rgba(91,155,213,.14);
-  letter-spacing:-.03em; pointer-events:none; user-select:none; white-space:nowrap;
-}
-.hero-grid{position:relative; z-index:2; display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(24px,5vw,64px); align-items:center}
-.hero h1{font-size:clamp(2.5rem,5.6vw,4.35rem); margin:.9rem 0 1.1rem}
-.hero h1 em{font-style:italic; color:var(--sky-deep); position:relative}
-.hero .lead{font-size:clamp(1.05rem,1.5vw,1.22rem); color:var(--ink-soft); max-width:34ch; margin-bottom:1.7rem}
-.hero-cta{display:flex; flex-wrap:wrap; gap:.8rem; align-items:center}
-.hero-trust{display:flex; gap:1.4rem; margin-top:1.9rem; flex-wrap:wrap}
-.hero-trust div{display:flex; align-items:center; gap:.5rem; font-size:.9rem; color:var(--ink-soft); font-weight:600}
-.hero-trust svg{width:18px; height:18px; color:var(--sky-deep); flex:0 0 auto}
-.hero-art{position:relative}
-.hero-art .art{width:100%; height:auto; filter:drop-shadow(0 30px 40px rgba(16,60,32,.20))}
-.hero-art .emblem{max-width:460px; margin:0 auto; display:block}
-.hero-banner{display:block; width:100%; height:auto; border-radius:calc(var(--radius) + 6px); box-shadow:var(--shadow); margin:0 0 clamp(30px,5vw,54px)}
-img.mark{object-fit:contain}
-.badge-ring{position:absolute; top:-46px; right:18px; width:112px; height:112px; z-index:3; animation:spin 26s linear infinite; filter:drop-shadow(0 6px 12px rgba(47,96,148,.18))}
-@keyframes spin{to{transform:rotate(360deg)}}
+/* announcement bar */
+.topbar{background:linear-gradient(90deg, var(--green-700), var(--green-600) 55%, var(--green)); color:#eafff1; font-size:.86rem; font-weight:700; position:relative; z-index:60}
+.topbar .wrap{display:flex; align-items:center; justify-content:space-between; gap:1rem; min-height:46px; padding-top:6px; padding-bottom:6px}
+.topbar .deal{display:inline-flex; align-items:center; gap:.6rem; min-width:0}
+.topbar .deal b{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.topbar .pulse{width:9px; height:9px; border-radius:50%; background:var(--gold); flex:0 0 auto; box-shadow:0 0 0 0 rgba(242,180,65,.7); animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(242,180,65,.6)}70%{box-shadow:0 0 0 10px rgba(242,180,65,0)}100%{box-shadow:0 0 0 0 rgba(242,180,65,0)}}
+.tb-right{display:flex; align-items:center; gap:.8rem; flex:0 0 auto}
+.topbar .socials .soc{width:30px; height:30px} .topbar .socials .soc svg{width:15px; height:15px}
+@media (max-width:680px){ .topbar .deal span.long{display:none} .topbar-socials{display:none} }
+@media (max-width:420px){ .topbar .deal b{max-width:150px} }
 
-/* ---------- section shells ---------- */
-section{position:relative; z-index:2; padding:clamp(56px,8vw,96px) 0; scroll-margin-top:88px}
-.band{background:var(--cloud-2); border-top:1px solid var(--line-cool); border-bottom:1px solid var(--line-cool)}
-.sec-head{max-width:62ch; margin:0 0 clamp(28px,4vw,48px)}
-.sec-head h2{font-size:clamp(2rem,3.6vw,3rem); margin:.7rem 0 .8rem}
-.sec-head p{color:var(--ink-soft); font-size:1.08rem}
-
-/* ---------- products ---------- */
-.cards{display:grid; grid-template-columns:repeat(4,1fr); gap:22px}
-.card{
-  background:var(--wit); border:1px solid var(--line); border-radius:var(--radius);
-  padding:26px 24px 28px; box-shadow:var(--shadow-soft);
-  transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
-}
-.card:hover{transform:translateY(-6px); box-shadow:var(--shadow); border-color:var(--line-cool)}
-.card .ico{width:64px; height:64px; border-radius:16px; display:grid; place-items:center; margin-bottom:16px; background:var(--cloud-2)}
-.card .ico svg{width:36px; height:36px}
-.card h3{font-size:1.28rem; margin-bottom:.5rem}
-.card p{font-size:.96rem; color:var(--ink-soft); margin:0}
-.card .tagline{margin-top:14px; font-size:.82rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--sky-deep)}
-
-/* ---------- gallery ---------- */
-.gal-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; flex-wrap:wrap; margin-bottom:26px}
-.gal-filters{display:flex; flex-wrap:wrap; gap:.5rem}
-.gal-filters button{
-  font-family:var(--body); font-weight:700; font-size:.86rem; cursor:pointer;
-  padding:.5rem 1.05rem; border-radius:999px; border:1.5px solid var(--line-cool);
-  background:#fff; color:var(--ink-soft); transition:all .18s ease;
-}
-.gal-filters button:hover{border-color:var(--sky-deep); color:var(--sky-ink)}
-.gal-filters button.active{background:var(--sky-deep); color:#fff; border-color:var(--sky-deep)}
-.gal-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px}
-.polaroid{
-  background:var(--wit); border:1px solid var(--line); border-radius:14px;
-  padding:12px 12px 14px; box-shadow:var(--shadow-soft);
-  transform:rotate(var(--tilt,0deg)); transition:transform .22s ease, box-shadow .22s ease;
-}
-.polaroid:hover{transform:rotate(0deg) translateY(-4px); box-shadow:var(--shadow)}
-.polaroid img{aspect-ratio:1/1; object-fit:cover; width:100%; border-radius:8px; background:var(--cloud-2)}
-.polaroid figcaption{font-family:var(--display); font-style:italic; font-size:.92rem; color:var(--ink-soft); margin-top:10px; padding:0 2px}
-.gal-grid figure:nth-child(4n+1){--tilt:-1.4deg}
-.gal-grid figure:nth-child(4n+2){--tilt:1deg}
-.gal-grid figure:nth-child(4n+3){--tilt:-.6deg}
-.gal-grid figure:nth-child(4n+4){--tilt:1.6deg}
-
-/* gallery empty state */
-.gal-empty{
-  border:2px dashed var(--line-cool); border-radius:var(--radius);
-  background:linear-gradient(180deg,#fff, var(--cloud-2));
-  padding:clamp(34px,6vw,64px); text-align:center; max-width:720px; margin:0 auto;
-}
-.gal-empty .cloud{width:96px; height:96px; margin:0 auto 18px}
-.gal-empty h3{font-size:1.6rem; margin-bottom:.6rem}
-.gal-empty p{color:var(--ink-soft); max-width:48ch; margin:0 auto 1.3rem}
-
-/* ---------- about ---------- */
-.about-grid{display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,5vw,64px); align-items:center}
-.about-art{position:relative}
-.about-art svg{width:100%; height:auto; filter:drop-shadow(0 24px 34px rgba(47,96,148,.18))}
-.about blockquote{
-  margin:1.6rem 0 0; padding:1rem 0 1rem 1.4rem; border-left:4px solid var(--gold);
-  font-family:var(--display); font-style:italic; font-size:1.28rem; color:var(--ink); line-height:1.4;
-}
-.facts{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:1.8rem}
-.fact{background:#fff; border:1px solid var(--line); border-radius:16px; padding:16px 16px 18px; text-align:center}
-.fact b{font-family:var(--display); font-size:1.7rem; color:var(--sky-deep); display:block}
-.fact span{font-size:.82rem; color:var(--ink-soft); font-weight:600}
-
-/* ---------- values strip ---------- */
-.values{display:grid; grid-template-columns:repeat(4,1fr); gap:22px}
-.value{display:flex; flex-direction:column; gap:.5rem}
-.value .vico{width:52px; height:52px; border-radius:14px; background:#fff; border:1px solid var(--line-cool); display:grid; place-items:center}
-.value .vico svg{width:28px; height:28px; color:var(--sky-deep)}
-.value h3{font-size:1.12rem}
-.value p{font-size:.93rem; color:var(--ink-soft); margin:0}
-
-/* ---------- contact ---------- */
-.contact-panel{
-  background:linear-gradient(155deg, var(--sky-ink), var(--sky-deep));
-  color:#fff; border-radius:calc(var(--radius) + 6px); padding:clamp(30px,5vw,56px);
-  display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(28px,5vw,56px); align-items:center;
-  box-shadow:var(--shadow); position:relative; overflow:hidden;
-}
-.contact-panel::after{content:""; position:absolute; right:-80px; top:-80px; width:280px; height:280px; border-radius:50%; background:radial-gradient(closest-side, rgba(242,180,65,.35), transparent 70%)}
-.contact-panel h2{color:#fff; font-size:clamp(1.9rem,3.2vw,2.6rem); margin-bottom:.7rem}
-.contact-panel p{color:rgba(255,255,255,.85)}
-.contact-cards{display:flex; flex-direction:column; gap:14px; position:relative; z-index:2}
-.ccard{display:flex; gap:14px; align-items:flex-start; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.18); border-radius:16px; padding:16px 18px}
-.ccard .cico{width:42px; height:42px; border-radius:12px; background:rgba(255,255,255,.16); display:grid; place-items:center; flex:0 0 auto}
-.ccard .cico svg{width:22px; height:22px; color:#fff}
-.ccard b{display:block; font-family:var(--body); font-size:.98rem}
-.ccard small{color:rgba(255,255,255,.78); font-size:.86rem; line-height:1.5}
-.ccard a{color:#fff; text-decoration:underline; text-underline-offset:3px}
-
-/* ---------- footer ---------- */
-footer.site{background:#1F2833; color:#C7D0DB; padding:clamp(40px,6vw,64px) 0 32px}
-.foot-grid{display:grid; grid-template-columns:1.6fr 1fr 1fr; gap:32px; margin-bottom:34px}
-.foot-brand{display:flex; align-items:center; gap:.7rem; margin-bottom:.9rem}
-.foot-brand .mark{width:44px; height:44px}
-.foot-brand b{font-family:var(--display); color:#fff; font-size:1.15rem}
-footer.site h4{font-family:var(--body); text-transform:uppercase; letter-spacing:.14em; font-size:.76rem; color:#8494A6; margin:0 0 14px}
-footer.site ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px}
-footer.site a{color:#C7D0DB; font-size:.95rem}
-footer.site a:hover{color:#fff}
-.foot-bottom{border-top:1px solid rgba(255,255,255,.1); padding-top:22px; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-size:.85rem; color:#8494A6}
-
-/* ---------- reveal ---------- */
-.reveal{opacity:0; transform:translateY(22px); transition:opacity .7s ease, transform .7s ease}
-.reveal.in{opacity:1; transform:none}
-.d1{transition-delay:.06s}.d2{transition-delay:.12s}.d3{transition-delay:.18s}.d4{transition-delay:.24s}
-
-/* ---------- responsive ---------- */
-@media (max-width:960px){
-  .hero-grid{grid-template-columns:1fr; text-align:left}
-  .hero-art{max-width:440px; margin:8px auto 0}
-  .cards{grid-template-columns:repeat(2,1fr)}
-  .gal-grid{grid-template-columns:repeat(3,1fr)}
-  .about-grid{grid-template-columns:1fr}
-  .about-art{max-width:440px; order:-1; margin:0 auto}
-  .values{grid-template-columns:repeat(2,1fr)}
-  .contact-panel{grid-template-columns:1fr}
-  .foot-grid{grid-template-columns:1fr 1fr}
-}
-@media (max-width:640px){
-  .nav-links{
-    position:absolute; top:74px; left:0; right:0; background:var(--cloud);
-    flex-direction:column; align-items:flex-start; gap:0; padding:8px 20px 18px;
-    border-bottom:1px solid var(--line); box-shadow:var(--shadow-soft);
-    display:none;
-  }
-  .nav-links.open{display:flex}
-  .nav-links a{width:100%; padding:.75rem 0; border-bottom:1px solid var(--line)}
+/* header */
+header.site{position:sticky; top:0; z-index:50; background:rgba(251,247,240,.86); backdrop-filter:saturate(150%) blur(14px); border-bottom:1px solid var(--line)}
+.nav{display:flex; align-items:center; gap:1.1rem; height:76px}
+.brand{display:flex; align-items:center; gap:.7rem; margin-right:auto; color:var(--forest)}
+.brand img{width:52px; height:52px; object-fit:contain; filter:drop-shadow(0 6px 12px rgba(15,51,32,.18))}
+.brand b{font-family:var(--display); font-weight:700; font-size:1.24rem; line-height:.98; display:block; letter-spacing:-.02em}
+.brand .tagsm{font-size:.62rem; letter-spacing:.22em; text-transform:uppercase; color:var(--gold-deep); font-weight:800}
+.nav-links{display:flex; align-items:center; gap:1.6rem}
+.nav-links a{color:var(--forest); font-weight:700; font-size:.98rem; position:relative; padding:.3rem 0}
+.nav-links a::after{content:""; position:absolute; left:0; bottom:-2px; height:2px; width:0; background:var(--green); transition:width .22s ease}
+.nav-links a:hover::after, .nav-links a:focus-visible::after{width:100%}
+.nav-cta{display:flex; align-items:center; gap:.7rem}
+.hamburger{display:none; width:46px; height:46px; border:1px solid var(--line); background:#fff; border-radius:12px; cursor:pointer; align-items:center; justify-content:center; color:var(--forest)}
+.hamburger svg{width:24px; height:24px}
+@media (max-width:900px){
+  .nav-links{position:fixed; inset:0 0 0 auto; width:min(82vw,340px); flex-direction:column; align-items:flex-start; gap:.2rem;
+    background:var(--cream); padding:96px 28px 28px; box-shadow:var(--shadow-lg); transform:translateX(105%); visibility:hidden;
+    transition:transform .3s cubic-bezier(.4,0,.2,1), visibility .3s; z-index:55}
+  .nav-links.open{transform:translateX(0); visibility:visible}
+  .nav-links a{font-size:1.25rem; font-family:var(--display); padding:.7rem 0; width:100%; border-bottom:1px solid var(--line)}
   .nav-links a::after{display:none}
-  .nav-toggle{display:inline-flex}
-  .nav .btn-ghost{display:none}
-  .cards{grid-template-columns:1fr}
-  .gal-grid{grid-template-columns:repeat(2,1fr)}
-  .values{grid-template-columns:1fr}
-  .facts{grid-template-columns:repeat(3,1fr)}
-  .foot-grid{grid-template-columns:1fr}
-  .hero .lead{max-width:none}
+  .hamburger{display:inline-flex}
+  .nav-cta .btn-ghost{display:none}
+  .scrim{position:fixed; inset:0; background:rgba(15,51,32,.42); opacity:0; visibility:hidden; transition:opacity .3s ease; z-index:54}
+  .scrim.show{opacity:1; visibility:visible}
+}
+
+section{position:relative; z-index:2; padding:clamp(56px,8vw,104px) 0}
+.band-cream{background:var(--cream)} .band-sand{background:var(--sand)}
+.band-green{background:radial-gradient(120% 120% at 85% -10%, rgba(32,177,79,.14), transparent 55%), linear-gradient(180deg, var(--forest), #0b2a18)}
+.band-wash{background:var(--green-050)}
+.sec-head{max-width:60ch; margin:0 auto clamp(30px,4.5vw,52px); text-align:center}
+.sec-head.left{margin-left:0; text-align:left}
+.sec-head h2{font-size:clamp(2.1rem,4.4vw,3.4rem); margin:.55rem 0 .7rem}
+.sec-head p{color:var(--ink-soft); font-size:1.1rem; margin:0 auto; max-width:56ch}
+.sec-head.left p{margin-left:0}
+.band-green .sec-head h2, .band-green h2, .band-green h3{color:#fff}
+.band-green .sec-head p{color:rgba(255,255,255,.82)}
+.grain{position:fixed; inset:0; z-index:1; pointer-events:none; opacity:.045; mix-blend-mode:multiply}
+
+/* hero */
+.hero{position:relative; overflow:hidden; padding:clamp(40px,6vw,80px) 0 clamp(50px,7vw,96px)}
+.hero::before{content:""; position:absolute; top:-18%; right:-12%; width:60vw; height:60vw; max-width:760px; max-height:760px; background:radial-gradient(closest-side, rgba(32,177,79,.16), transparent 70%); z-index:0}
+.hero::after{content:""; position:absolute; left:-8%; bottom:-20%; width:44vw; height:44vw; max-width:520px; max-height:520px; background:radial-gradient(closest-side, rgba(242,180,65,.18), transparent 70%); z-index:0}
+.hero-grid{position:relative; z-index:2; display:grid; grid-template-columns:1.02fr .98fr; gap:clamp(28px,5vw,68px); align-items:center}
+.hero-copy .eyebrow{margin-bottom:1rem}
+.hero h1{font-size:clamp(2.4rem,5.7vw,4.5rem); margin:0 0 1.2rem; overflow-wrap:break-word}
+.hero h1 em{font-style:italic; color:var(--green-600); position:relative; white-space:nowrap}
+.hero h1 em::after{content:""; position:absolute; left:0; right:0; bottom:.06em; height:.14em; background:var(--gold); opacity:.55; border-radius:3px; z-index:-1}
+.hero .lead{font-size:clamp(1.06rem,1.5vw,1.24rem); color:var(--ink-soft); max-width:42ch; margin-bottom:1.9rem}
+.hero-cta{display:flex; flex-wrap:wrap; gap:.85rem; align-items:center}
+.hero-chips{display:flex; gap:.5rem; flex-wrap:wrap; margin-top:2rem}
+.chip{display:inline-flex; align-items:center; gap:.5rem; background:#fff; border:1px solid var(--line-green); color:var(--forest); font-weight:700; font-size:.86rem; padding:.5rem .9rem; border-radius:999px; box-shadow:var(--shadow-sm)}
+.chip .ico{width:17px; height:17px; color:var(--green-600)}
+.hero-art{position:relative; z-index:2}
+.hero-sign{position:relative; border-radius:var(--r-xl); overflow:hidden; box-shadow:var(--shadow-lg); transform:rotate(-2deg); border:8px solid #fff; background:#fff; transition:transform .4s ease}
+.hero-art:hover .hero-sign{transform:rotate(-1deg) translateY(-4px)}
+.hero-sign img{width:100%; height:auto; display:block}
+.hero-badge{position:absolute; z-index:3; border-radius:999px; font-weight:800; box-shadow:var(--shadow); display:inline-flex; align-items:center; gap:.4rem; padding:.7rem 1.05rem; font-size:.92rem}
+.hero-badge.deal{top:-14px; left:-8px; background:var(--coral); color:#3a1109; transform:rotate(-6deg)}
+.hero-seal{position:absolute; z-index:4; bottom:-30px; right:-30px; width:112px; height:112px; border-radius:50%; background:#fff; display:grid; place-items:center; box-shadow:var(--shadow); padding:12px; animation:float 6s ease-in-out infinite}
+.hero-seal img{width:100%; height:100%; object-fit:contain}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+
+/* trust */
+.trust{background:var(--forest); color:#dff5e6}
+.trust .wrap{display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(255,255,255,.08); border-radius:var(--r-lg); overflow:hidden}
+.trust .cell{background:var(--forest); padding:clamp(20px,3vw,30px); display:flex; align-items:center; gap:.9rem}
+.trust .cell svg{width:30px; height:30px; color:var(--gold); flex:0 0 auto}
+.trust .cell b{display:block; font-family:var(--display); font-size:1.15rem; color:#fff; line-height:1}
+.trust .cell span{font-size:.86rem; color:rgba(223,245,230,.78)}
+@media (max-width:760px){ .trust .wrap{grid-template-columns:repeat(2,1fr)} }
+
+/* category grid */
+.cat-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:clamp(16px,2vw,24px)}
+.cat{position:relative; border-radius:var(--r-lg); overflow:hidden; min-height:290px; display:flex; align-items:flex-end; color:#fff; box-shadow:var(--shadow-sm); isolation:isolate; transition:transform .3s ease, box-shadow .3s ease}
+.cat:hover{transform:translateY(-6px); box-shadow:var(--shadow-lg)}
+.cat img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; transition:transform .5s ease}
+.cat:hover img{transform:scale(1.06)}
+.cat::after{content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, rgba(15,51,32,0) 32%, rgba(15,51,32,.5) 66%, rgba(11,42,24,.92))}
+.cat .cat-body{padding:clamp(18px,2.4vw,26px); width:100%}
+.cat .cat-ico{width:44px; height:44px; border-radius:12px; background:rgba(255,255,255,.16); backdrop-filter:blur(4px); display:grid; place-items:center; margin-bottom:.7rem; border:1px solid rgba(255,255,255,.25)}
+.cat .cat-ico svg{width:24px; height:24px; color:#fff}
+.cat h3{font-size:1.5rem; color:#fff; margin-bottom:.15rem}
+.cat p{font-size:.9rem; color:rgba(255,255,255,.85); margin:0}
+.cat .go{position:absolute; top:16px; right:16px; width:40px; height:40px; border-radius:50%; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.3); display:grid; place-items:center; color:#fff; transition:background .2s ease, transform .2s ease}
+.cat:hover .go{background:var(--gold); color:#3a2a05; transform:rotate(-45deg)}
+.cat .go svg{width:20px; height:20px}
+@media (max-width:900px){ .cat-grid{grid-template-columns:repeat(2,1fr)} .cat{min-height:250px} }
+@media (max-width:560px){ .cat-grid{grid-template-columns:1fr} }
+
+/* deals rail */
+.rail{display:flex; gap:20px; overflow-x:auto; padding:6px 4px 22px; scroll-snap-type:x mandatory; scrollbar-width:thin}
+.rail::-webkit-scrollbar{height:8px} .rail::-webkit-scrollbar-thumb{background:var(--line-green); border-radius:999px}
+.deal-card{scroll-snap-align:start; flex:0 0 300px; background:var(--paper); border-radius:var(--r-lg); overflow:hidden; box-shadow:var(--shadow-sm); border:1px solid var(--line); display:flex; flex-direction:column; transition:transform .28s ease, box-shadow .28s ease}
+.deal-card:hover{transform:translateY(-6px); box-shadow:var(--shadow)}
+.deal-card .thumb{position:relative; aspect-ratio:4/3; overflow:hidden; background:var(--green-050)}
+.deal-card .thumb img{width:100%; height:100%; object-fit:cover; transition:transform .5s ease}
+.deal-card:hover .thumb img{transform:scale(1.05)}
+.tag{position:absolute; top:12px; left:12px; background:var(--coral); color:#3a1109; font-weight:800; font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; padding:.38rem .7rem; border-radius:999px; box-shadow:var(--shadow-sm)}
+.tag.gold{background:var(--gold); color:#3a2a05} .tag.green{background:var(--green-600); color:#fff}
+.deal-card .body{padding:18px 18px 20px; display:flex; flex-direction:column; gap:.4rem; flex:1}
+.deal-card h3{font-size:1.28rem} .deal-card p{font-size:.92rem; color:var(--ink-soft); margin:0 0 .4rem}
+.deal-card .btn{margin-top:auto}
+
+/* value */
+.value-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(16px,2vw,22px)}
+.value{background:var(--paper); border:1px solid var(--line); border-radius:var(--r-lg); padding:clamp(22px,2.6vw,30px); box-shadow:var(--shadow-sm)}
+.value .v-ico{width:54px; height:54px; border-radius:16px; background:var(--green-050); display:grid; place-items:center; margin-bottom:1rem}
+.value .v-ico svg{width:28px; height:28px; color:var(--green-600)}
+.value h3{font-size:1.25rem; margin-bottom:.4rem} .value p{font-size:.94rem; color:var(--ink-soft); margin:0}
+@media (max-width:900px){ .value-grid{grid-template-columns:repeat(2,1fr)} }
+@media (max-width:520px){ .value-grid{grid-template-columns:1fr} }
+
+/* gallery */
+.filters{display:flex; flex-wrap:wrap; gap:.55rem; justify-content:center; margin-bottom:clamp(24px,3vw,36px)}
+.filter{font-family:var(--body); font-weight:700; font-size:.9rem; padding:.62rem 1.15rem; border-radius:999px; cursor:pointer; background:#fff; border:1px solid var(--line-green); color:var(--forest); transition:all .2s ease}
+.filter:hover{border-color:var(--green-600)} .filter.active{background:var(--green-600); color:#fff; border-color:var(--green-600); box-shadow:var(--shadow-sm)}
+.gal{columns:4 260px; column-gap:16px}
+.gal figure{break-inside:avoid; margin:0 0 16px; border-radius:var(--r); overflow:hidden; position:relative; box-shadow:var(--shadow-sm); background:var(--green-050); cursor:zoom-in; transition:transform .28s ease, box-shadow .28s ease}
+.gal figure:hover{transform:translateY(-4px); box-shadow:var(--shadow)}
+.gal img{width:100%; height:auto; display:block; transition:transform .5s ease}
+.gal figure:hover img{transform:scale(1.05)}
+.gal figcaption{position:absolute; inset:auto 0 0 0; padding:26px 14px 12px; color:#fff; font-size:.84rem; font-weight:600; background:linear-gradient(180deg, transparent, rgba(11,42,24,.86)); opacity:0; transform:translateY(8px); transition:opacity .25s ease, transform .25s ease}
+.gal figure:hover figcaption, .gal figure:focus-visible figcaption{opacity:1; transform:none}
+#gal-empty{display:none; text-align:center; color:var(--ink-soft); padding:40px 0}
+.lightbox{position:fixed; inset:0; z-index:200; background:rgba(11,42,24,.92); display:none; align-items:center; justify-content:center; padding:24px}
+.lightbox.open{display:flex}
+.lightbox img{max-width:min(92vw,1100px); max-height:86vh; border-radius:14px; box-shadow:var(--shadow-lg)}
+.lightbox .lb-cap{position:absolute; bottom:22px; left:0; right:0; text-align:center; color:#fff; font-weight:600; padding:0 20px}
+.lightbox .lb-close{position:absolute; top:18px; right:20px; width:48px; height:48px; border-radius:50%; border:none; cursor:pointer; background:rgba(255,255,255,.16); color:#fff; display:grid; place-items:center}
+.lightbox .lb-close svg{width:26px; height:26px}
+
+/* community */
+.community .wrap{display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(28px,5vw,60px); align-items:center}
+.community .join-cards{display:flex; flex-direction:column; gap:14px}
+.join-card{display:flex; align-items:center; gap:16px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14); border-radius:var(--r-lg); padding:18px 20px; color:#fff; transition:transform .2s ease, background .2s ease}
+.join-card:hover{transform:translateY(-3px); background:rgba(255,255,255,.1)}
+.join-card .j-ico{width:52px; height:52px; border-radius:14px; display:grid; place-items:center; flex:0 0 auto}
+.join-card .j-ico svg{width:28px; height:28px; color:#fff}
+.join-card.fb .j-ico{background:var(--fb)} .join-card.tk .j-ico{background:#111} .join-card.wa .j-ico{background:var(--wa)}
+.join-card b{display:block; font-family:var(--display); font-size:1.18rem} .join-card span{font-size:.9rem; color:rgba(255,255,255,.75)}
+.join-card .arr{margin-left:auto; color:rgba(255,255,255,.6)}
+.stat-row{display:flex; gap:26px; margin-top:1.6rem; flex-wrap:wrap}
+.stat b{font-family:var(--display); font-size:2.2rem; color:var(--gold); display:block; line-height:1} .stat span{font-size:.86rem; color:rgba(255,255,255,.75)}
+@media (max-width:820px){ .community .wrap{grid-template-columns:1fr} }
+
+/* visit */
+.visit-grid{display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(24px,4vw,48px); align-items:stretch}
+.visit-card{background:var(--paper); border:1px solid var(--line); border-radius:var(--r-xl); padding:clamp(26px,3.5vw,44px); box-shadow:var(--shadow)}
+.contact-list{list-style:none; margin:1.4rem 0 0; padding:0; display:flex; flex-direction:column; gap:14px}
+.contact-list li{display:flex; gap:14px; align-items:flex-start}
+.contact-list .c-ico{width:46px; height:46px; border-radius:13px; background:var(--green-050); display:grid; place-items:center; flex:0 0 auto}
+.contact-list .c-ico svg{width:23px; height:23px; color:var(--green-600)}
+.contact-list b{display:block; font-size:.78rem; text-transform:uppercase; letter-spacing:.1em; color:var(--gold-deep); font-family:var(--body); font-weight:800}
+.contact-list a, .contact-list span{color:var(--ink); font-weight:600} .contact-list a:hover{color:var(--green-600)}
+.map-card{border-radius:var(--r-xl); overflow:hidden; box-shadow:var(--shadow); position:relative; min-height:340px; background:linear-gradient(135deg, var(--green-600), var(--forest)); display:flex; flex-direction:column; justify-content:flex-end; color:#fff}
+.map-card .map-visual{position:absolute; inset:0; opacity:.5; background-image:radial-gradient(circle at 30% 30%, rgba(255,255,255,.14) 0 2px, transparent 3px), linear-gradient(0deg, rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px); background-size:auto, 44px 44px, 44px 44px}
+.map-card .pin{position:absolute; top:44%; left:50%; transform:translate(-50%,-50%); width:56px; height:56px; color:var(--gold); filter:drop-shadow(0 8px 12px rgba(0,0,0,.35)); animation:float 5s ease-in-out infinite}
+.map-card .map-body{position:relative; padding:24px 26px; background:linear-gradient(0deg, rgba(11,42,24,.9), transparent)}
+.map-card .map-body b{font-family:var(--display); font-size:1.3rem; display:block}
+@media (max-width:820px){ .visit-grid{grid-template-columns:1fr} }
+
+/* footer */
+footer.site{background:#0a2416; color:#c3d6c9; padding:clamp(48px,6vw,72px) 0 30px}
+.foot-grid{display:grid; grid-template-columns:1.5fr 1fr 1fr 1fr; gap:clamp(24px,3vw,40px)}
+.foot-brand{display:flex; align-items:center; gap:.7rem; margin-bottom:1rem}
+.foot-brand img{width:52px; height:52px; object-fit:contain; background:#fff; border-radius:14px; padding:5px}
+.foot-brand b{font-family:var(--display); font-size:1.2rem; color:#fff; line-height:1}
+.foot-brand .tagsm{font-size:.6rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); font-weight:800}
+footer.site h4{font-family:var(--body); text-transform:uppercase; letter-spacing:.14em; font-size:.74rem; color:#8fae98; margin:0 0 14px}
+footer.site ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px}
+footer.site a{color:#c3d6c9; font-size:.95rem} footer.site a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1); margin-top:clamp(32px,4vw,48px); padding-top:22px; display:flex; justify-content:space-between; gap:14px; flex-wrap:wrap; font-size:.84rem; color:#8fae98}
+.foot-legal a{color:#8fae98}
+@media (max-width:820px){ .foot-grid{grid-template-columns:1fr 1fr} }
+@media (max-width:520px){ .foot-grid{grid-template-columns:1fr} }
+
+.wa-fab{position:fixed; right:20px; bottom:20px; z-index:90; width:60px; height:60px; border-radius:50%; background:var(--wa); color:#fff; display:grid; place-items:center; box-shadow:var(--shadow); transition:transform .2s ease}
+.wa-fab:hover{transform:scale(1.08)} .wa-fab svg{width:32px; height:32px}
+.wa-fab::after{content:""; position:absolute; inset:0; border-radius:50%; box-shadow:0 0 0 0 rgba(37,211,102,.6); animation:pulse 2.4s infinite}
+
+.reveal{opacity:0; transform:translateY(22px); transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1; transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}.reveal.d4{transition-delay:.32s}
+@media (prefers-reduced-motion: reduce){ .reveal{opacity:1; transform:none} }
+.skip{position:absolute; left:-999px; top:8px; z-index:100; background:#fff; color:var(--green-700); padding:.6rem 1rem; border-radius:8px; font-weight:800}
+.skip:focus{left:8px}
+@media (max-width:600px){
+  .hero-copy .eyebrow{font-size:.62rem; letter-spacing:.1em}
+  .hero h1 em{white-space:normal} .hero h1 em::after{display:none}
+  .hero-badge.deal{left:auto; right:-2px; top:-12px}
+  .hero-seal{width:88px; height:88px; bottom:-20px; right:-8px}
+  .soc{width:44px; height:44px}
 }
 </style>
 </head>
 <body>
 
-<!-- paper grain -->
-<svg class="grain" aria-hidden="true" width="100%" height="100%"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0.6  0 0 0 0 0.55  0 0 0 0 0.45  0 0 0 0.06 0"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
+<a class="skip" href="#main" data-en="Skip to content">Gaan na inhoud</a>
 
-<!-- reusable SVG defs: halo-paw mark -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="mark" viewBox="0 0 64 64">
-    <circle cx="32" cy="35" r="27" fill="#12833B"/>
-    <ellipse cx="32" cy="14.5" rx="15" ry="5" fill="none" stroke="#F2B441" stroke-width="3"/>
-    <g fill="#FBF7F0">
-      <circle cx="24" cy="35" r="4.4"/><circle cx="40" cy="35" r="4.4"/>
-      <circle cx="27.5" cy="27.5" r="3.8"/><circle cx="36.5" cy="27.5" r="3.8"/>
-      <path d="M32 34c5.8 0 9.6 4.8 9.6 9 0 3.8-3.4 5.3-6.3 4-2.1-.95-4.6-.95-6.7 0-2.9 1.3-6.3-.2-6.3-4 0-4.2 3.9-9 9.7-9z"/>
-    </g>
-  </symbol>
-</svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <g id="i-paw" fill="currentColor"><circle cx="6" cy="10" r="2.4"/><circle cx="10.5" cy="6.5" r="2.4"/><circle cx="15.5" cy="6.5" r="2.4"/><circle cx="19" cy="10.5" r="2.2"/><path d="M12.5 12c3 0 5 2.5 5 4.7 0 2-1.8 2.8-3.4 2.1-1-.5-2.4-.5-3.4 0-1.6.7-3.4-.1-3.4-2.1 0-2.2 2.1-4.7 5.2-4.7z"/></g>
+</defs></svg>
+<svg class="grain" aria-hidden="true"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0.06  0 0 0 0 0.2  0 0 0 0 0.12  0 0 0 0.9 0"/></filter><rect width="100%" height="100%" filter="url(#grain)"/></svg>
 
+<!-- ANNOUNCEMENT BAR -->
+<div class="topbar">
+  <div class="wrap">
+    <span class="deal"><span class="pulse"></span> <b data-en="Now on: 50% OFF all Nutrimed supplements">Nou aan: 50% AF op alle Nutrimed-aanvullings</b> <span class="long" data-en="— premium care, while stock lasts">— premium sorg, terwyl voorraad hou</span></span>
+    <div class="tb-right">
+      <div class="lang" role="group" aria-label="Kies taal / Choose language">
+        <button type="button" class="lang-btn active" data-lang="af" aria-pressed="true">Afrikaans</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
+      </div>
+      <span class="socials topbar-socials" aria-label="Sosiale skakels">
+        <a class="soc fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+        <a class="soc tk" href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3h-3v13a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V10.5A5.5 5.5 0 1 0 16.5 16V8.9a6.5 6.5 0 0 0 4 1.35V7.2a3.7 3.7 0 0 1-4-3.2z"/></svg></a>
+        <a class="soc wa" href="https://wa.me/27796952929" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg></a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
 <header class="site">
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Heavenly Pets PETSHOP home">
-      <img class="mark" src="images/logo-mark.png" alt="Heavenly Pets logo" width="46" height="46" />
-      <span style="display:flex; flex-direction:column">
-        <b>Heavenly Pets</b>
-        <span>Petshop · Meyerton</span>
-      </span>
+    <a class="brand" href="#top" aria-label="Heavenly Pets PETSHOP tuis">
+      <img src="images/logo-mark.png" alt="Heavenly Pets logo" width="52" height="52" />
+      <span style="display:flex;flex-direction:column"><b>Heavenly Pets</b><span class="tagsm">Petshop · Meyerton</span></span>
     </a>
-    <nav class="nav-links" id="navlinks" aria-label="Primary">
-      <a href="#shop">Shop</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+    <nav class="nav-links" id="navlinks" aria-label="Hoof">
+      <a href="#shop" data-en="Shop by pet">Koop per troeteldier</a>
+      <a href="#deals" data-en="Deals">Aanbiedings</a>
+      <a href="#gallery" data-en="Gallery">Galery</a>
+      <a href="#about" data-en="About">Oor ons</a>
+      <a href="#visit" data-en="Visit">Besoek</a>
     </nav>
     <div class="nav-cta">
-      <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" aria-label="Visit our Facebook group">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
-        <span>Facebook</span>
-      </a>
-      <button class="nav-toggle" id="navtoggle" aria-label="Menu" aria-expanded="false" aria-controls="navlinks">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
+      <a class="btn btn-ghost" href="#visit" data-en="Find us">Vind ons</a>
+      <a class="btn btn-wa" href="https://wa.me/27796952929" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg><span data-en="WhatsApp">WhatsApp</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Maak kieslys oop" aria-expanded="false" aria-controls="navlinks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
   </div>
 </header>
+<div class="scrim" id="scrim" aria-hidden="true"></div>
 
-<main id="top">
+<main id="main">
+<span id="top"></span>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap">
-      <img class="hero-banner reveal" src="images/banner.png" width="1600" height="800" alt="Heavenly Pets Pet Shop — always friendly, with the best advice" />
-    </div>
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow reveal">Meyerton's neighbourhood pet shop</span>
-        <h1 class="reveal d1">Everything your pets need,<br><em>under one heavenly roof.</em></h1>
-        <p class="lead reveal d2">Quality pet food, treats and everyday essentials for dogs, cats and the whole family of furry, feathered and finned friends — with honest advice from people who love animals as much as you do.</p>
-        <div class="hero-cta reveal d3">
-          <a class="btn btn-primary" href="#shop">Browse the shop
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-          <a class="btn btn-ghost" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Join our community</a>
-        </div>
-        <div class="hero-trust reveal d4">
-          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Trusted local brands</div>
-          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Family-run &amp; friendly</div>
-          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Pets welcome in-store</div>
-        </div>
+<!-- HERO -->
+<section class="hero band-cream">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow reveal" data-en="Meyerton's neighbourhood pet emporium">Meyerton se buurt-troeteldierwinkel</span>
+      <h1 class="reveal d1" data-en="Everything your pets need,<br><em>under one heavenly roof.</em>">Alles wat jou troeteldiere nodig het,<br><em>onder een hemelse dak.</em></h1>
+      <p class="lead reveal d2" data-en="From puppy food to bearded-dragon hides, aquariums to bird cages — a <strong>big range</strong> from multiple suppliers, with honest advice from people who love animals as much as you do.">Van hondekos tot baardakkedis-skuilings, akwariums tot voëlhokke — 'n <strong>groot reeks</strong> van verskeie verskaffers, met eerlike advies van mense wat diere net so lief het soos jy.</p>
+      <div class="hero-cta reveal d3">
+        <a class="btn btn-primary btn-lg" href="#shop"><span data-en="Shop by pet">Koop per troeteldier</span><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-wa btn-lg" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'd%20like%20to%20ask%20about%20some%20products." target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg><span data-en="Order on WhatsApp">Bestel op WhatsApp</span></a>
       </div>
-
-      <div class="hero-art reveal d2">
-        <!-- rotating halo badge -->
-        <svg class="badge-ring" viewBox="0 0 120 120" aria-hidden="true">
-          <defs><path id="ring" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
-          <text font-family="Karla, sans-serif" font-size="12.2" font-weight="700" letter-spacing="3.4" fill="#C98A1E">
-            <textPath href="#ring" startOffset="0">· HEAVENLY PETS · MEYERTON </textPath>
-          </text>
-        </svg>
-        <!-- brand emblem: the real Heavenly Pets logo -->
-        <img class="art emblem" src="images/logo-mark.png" width="1184" height="1152" alt="Heavenly Pets emblem — a dog, cat and bird beneath a leafy tree" />
+      <div class="hero-chips reveal d4">
+        <span class="chip"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-en="Multiple suppliers">Verskeie verskaffers</span></span>
+        <span class="chip"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-en="Big range in-store">Groot reeks in die winkel</span></span>
+        <span class="chip"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-en="Honest advice">Eerlike advies</span></span>
       </div>
     </div>
-  </section>
+    <div class="hero-art reveal d2">
+      <span class="hero-badge deal" data-en="50% OFF Nutrimed">50% AF Nutrimed</span>
+      <div class="hero-sign"><img src="images/banner.png" width="1600" height="800" alt="Heavenly Pets Pet Shop — altyd vriendelik, met die beste advies" fetchpriority="high" /></div>
+      <div class="hero-seal"><img src="images/logo-mark.png" width="112" height="112" alt="" aria-hidden="true" /></div>
+    </div>
+  </div>
+</section>
 
-  <!-- SHOP / PRODUCTS -->
-  <section id="shop" class="band">
-    <div class="wrap">
-      <div class="sec-head reveal">
-        <span class="eyebrow">What we stock</span>
-        <h2>Good things for good animals</h2>
-        <p>From the food bowl to the favourite toy, we keep the shelves stocked with the everyday essentials that keep pets healthy, happy and thoroughly spoiled.</p>
-      </div>
-      <div class="cards">
-        <article class="card reveal d1">
-          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 20c0-6 4-10 10-10s10 4 10 10"/><path d="M12 20h24l-2 16a4 4 0 0 1-4 3.5H18A4 4 0 0 1 14 36z"/><path d="M20 27v6M28 27v6"/></svg></div>
-          <h3>Food &amp; Treats</h3>
-          <p>Trusted brands of dog and cat food, plus treats, chews and supplements they'll happily line up for.</p>
-          <div class="tagline">Fuel for happy tails</div>
-        </article>
-        <article class="card reveal d2">
-          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 40s-13-8-13-18a7 7 0 0 1 13-3 7 7 0 0 1 13 3c0 10-13 18-13 18z"/></svg></div>
-          <h3>Pets &amp; Adoption</h3>
-          <p>Small pets and rescues looking for a loving home — and everything you need to welcome a new friend.</p>
-          <div class="tagline">Find a new best friend</div>
-        </article>
-        <article class="card reveal d3">
-          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="4"/><circle cx="30" cy="14" r="4"/><circle cx="38" cy="24" r="3.5"/><circle cx="10" cy="26" r="3.5"/><path d="M24 24c6 0 11 5 11 10 0 4-4 5-7 3.5a9 9 0 0 0-8 0c-3 1.5-7 .5-7-3.5 0-5 5-10 11-10z"/></svg></div>
-          <h3>Accessories &amp; Care</h3>
-          <p>Beds, bowls, collars, leads, toys and grooming essentials to keep every pet comfy and cared for.</p>
-          <div class="tagline">Comfort &amp; play</div>
-        </article>
-        <article class="card reveal d4">
-          <div class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="#12833B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 18l3-8h22l3 8"/><path d="M10 18h28v18a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3z"/><path d="M10 18a4 4 0 0 0 8 0 4 4 0 0 0 8 0 4 4 0 0 0 8 0"/></svg></div>
-          <h3>In the Shop</h3>
-          <p>Fresh stock, seasonal specials and familiar faces. Pop in, say hello, and let us help you find the right thing.</p>
-          <div class="tagline">Come and browse</div>
-        </article>
+<!-- TRUST -->
+<section class="trust" style="padding:0" aria-label="Waarom by ons koop">
+  <div class="wrap" style="padding-top:0;padding-bottom:0">
+    <div class="cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 3l9 6v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21v-6h6v6"/></svg><div><b data-en="Family-run">Familiebesit</b><span data-en="A local Meyerton shop">'n Plaaslike Meyerton-winkel</span></div></div>
+    <div class="cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7z"/><path d="m9 12 2 2 4-4"/></svg><div><b data-en="Trusted brands">Betroubare handelsmerke</b><span data-en="Montego, Nutrimed &amp; more">Montego, Nutrimed &amp; meer</span></div></div>
+    <div class="cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><div><b data-en="Honest advice">Eerlike advies</b><span data-en="Ask us anything">Vra ons enigiets</span></div></div>
+    <div class="cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-8.5C.9 9.5 2 6 5.5 6 7.5 6 9 7.2 12 10c3-2.8 4.5-4 6.5-4C22 6 23.1 9.5 21.5 12.5 19 16.65 12 21 12 21z"/></svg><div><b data-en="Pets welcome">Diere welkom</b><span data-en="Come say hello in-store">Kom groet ons in die winkel</span></div></div>
+  </div>
+</section>
+
+<!-- SHOP BY PET -->
+<section id="shop" class="band-cream">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-en="Shop by pet">Koop per troeteldier</span>
+      <h2 data-en="Find exactly what your companion needs">Kry presies wat jou maatjie nodig het</h2>
+      <p data-en="Tap a department to see what's on the shelves — or message us on WhatsApp and we'll set it aside for collection.">Tik op 'n afdeling om te sien wat op die rakke is — of stuur vir ons 'n WhatsApp en ons sit dit eenkant vir afhaal.</p>
+    </div>
+    <div class="cat-grid">
+      <a class="cat reveal" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20looking%20for%20DOG%20%26%20CAT%20products." target="_blank" rel="noopener" aria-label="Honde &amp; Katte">
+        <img src="images/hp-036.jpg" alt="Honde- en katkos, lekkernye en versorging" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24"><use href="#i-paw"/></svg></div><h3 data-en="Dogs &amp; Cats">Honde &amp; Katte</h3><p data-en="Food, treats, beds, shampoos, toys, leashes, litter &amp; more">Kos, lekkernye, beddens, sjampoes, speelgoed, leibande, kattebak &amp; meer</p></div>
+      </a>
+      <a class="cat reveal d1" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20looking%20for%20BIRD%20products." target="_blank" rel="noopener" aria-label="Voëls">
+        <img src="images/hp-046.jpg" alt="Voëlhokke, sitstokke en voerbakke" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a3 3 0 1 0-3 3c0 4-4 7-8 8 3 1 8 1 11-2 2-2 3-5 3-8l2-2-3-1z"/></svg></div><h3 data-en="Birds">Voëls</h3><p data-en="Cages, perches, feeders, nests &amp; seed for every species">Hokke, sitstokke, voerbakke, neste &amp; saad vir elke spesie</p></div>
+      </a>
+      <a class="cat reveal d2" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20looking%20for%20FISH%20%26%20AQUARIUM%20products." target="_blank" rel="noopener" aria-label="Visse &amp; Akwarium">
+        <img src="images/hp-032.jpg" alt="Akwariums, visse en akwatiese toebehore" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c3-4 7-5 11-5 3 0 5 2 7 5-2 3-4 5-7 5-4 0-8-1-11-5z"/><path d="M18 10.5h.01"/></svg></div><h3 data-en="Fish &amp; Aquarium">Visse &amp; Akwarium</h3><p data-en="Tanks, pumps, lights, décor, foods &amp; a rainbow of fish">Tenks, pompe, ligte, versierings, kos &amp; 'n reënboog van visse</p></div>
+      </a>
+      <a class="cat reveal d1" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20looking%20for%20REPTILE%20products." target="_blank" rel="noopener" aria-label="Reptiele">
+        <img src="images/hp-047.jpg" alt="Reptiel-terrariums, skuilings en toebehore" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c2 0 3-2 5-2s2 2 4 2 3-3 5-3 2 2 2 2"/><path d="M4 14c-1 3 1 5 4 4"/></svg></div><h3 data-en="Reptiles">Reptiele</h3><p data-en="Hides, bowls, terrarium kit for dragons, geckos &amp; snakes">Skuilings, bakke, terrarium-toerusting vir akkedisse, geitjies &amp; slange</p></div>
+      </a>
+      <a class="cat reveal d2" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20looking%20for%20SMALL%20ANIMAL%20products." target="_blank" rel="noopener" aria-label="Klein Diere">
+        <img src="images/hp-052.jpg" alt="Klein diere en knaagdiere" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24"><use href="#i-paw"/></svg></div><h3 data-en="Small Animals">Klein Diere</h3><p data-en="Hamsters, rabbits, guinea pigs — hutches, bedding &amp; feed">Hamsters, konyne, marmotte — hokke, beddegoed &amp; voer</p></div>
+      </a>
+      <a class="cat reveal d3" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!%20I'm%20interested%20in%20LIVE%20FEED%20(crickets%2Fworms)." target="_blank" rel="noopener" aria-label="Lewende Voer &amp; Eksoties">
+        <img src="images/hp-051.jpg" alt="Lewende voer — krieke, meelwurms en superwurms" loading="lazy" />
+        <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+        <div class="cat-body"><div class="cat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M7 8h10M8 16h8"/><path d="M4 12c0-3 3-5 8-5s8 2 8 5-3 5-8 5-8-2-8-5z"/></svg></div><h3 data-en="Live Feed &amp; Exotics">Lewende Voer &amp; Eksoties</h3><p data-en="Fresh crickets, meal- &amp; superworms every week">Vars krieke, meel- &amp; superwurms elke week</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- DEALS -->
+<section id="deals" class="band-sand">
+  <div class="wrap">
+    <div class="sec-head left reveal">
+      <span class="eyebrow" data-en="Fresh on the shelves">Vars op die rakke</span>
+      <h2 data-en="This week at Heavenly Pets">Hierdie week by Heavenly Pets</h2>
+      <p data-en="New stock, specials and fan favourites. See something you like? Tap Order on WhatsApp and we'll sort you out.">Nuwe voorraad, spesiale aanbiedings en gunstelinge. Sien jy iets wat jou aanstaan? Tik Bestel op WhatsApp en ons help jou reg.</p>
+    </div>
+    <div class="rail reveal">
+      <article class="deal-card">
+        <div class="thumb"><span class="tag" data-en="50% OFF">50% AF</span><img src="images/hp-039.jpg" alt="Nutrimed troeteldier-aanvullings" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Nutrimed — half price">Nutrimed — halfprys</h3><p data-en="Premium pet health supplements at 50% off. Limited time, while stock lasts.">Premium troeteldier-gesondheidsaanvullings teen 50% afslag. Beperkte tyd, terwyl voorraad hou.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20Is%20the%2050%25%20off%20Nutrimed%20still%20available%3F" target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+      <article class="deal-card">
+        <div class="thumb"><span class="tag gold" data-en="New in">Splinternuut</span><img src="images/hp-040.jpg" alt="Troeteldier-verkoelingsmatte" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Pet cooling mats">Troeteldier-verkoelingsmatte</h3><p data-en="Keep pets cool on hot days — no water, no electricity. Sizes M, L &amp; XL.">Hou troeteldiere koel op warm dae — geen water, geen elektrisiteit. Groottes M, L &amp; XL.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20I'd%20like%20a%20pet%20cooling%20mat%20-%20which%20sizes%20do%20you%20have%3F" target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+      <article class="deal-card">
+        <div class="thumb"><span class="tag green" data-en="Bright!">Helder!</span><img src="images/hp-032.jpg" alt="Akwarium-visklippies in agt kleure" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Aquarium fish stones">Akwarium-visklippies</h3><p data-en="Make your tank pop — colourful, fluorescent stones in eight shades.">Laat jou tenk uitstaan — kleurvolle, fluoresserende klippies in agt skakerings.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20I'd%20like%20some%20aquarium%20fish%20stones." target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+      <article class="deal-card">
+        <div class="thumb"><span class="tag" data-en="Fan favourite">Gunsteling</span><img src="images/hp-036.jpg" alt="Montego Paw Patrol hondelekkernye en sjampoe" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Montego Paw Patrol range">Montego Paw Patrol-reeks</h3><p data-en="Bags O' Wags treats &amp; 2-in-1 shampoos your pup will love.">Bags O' Wags-lekkernye &amp; 2-in-1 sjampoes wat jou hondjie sal liefhê.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20I'd%20like%20the%20Montego%20Paw%20Patrol%20range." target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+      <article class="deal-card">
+        <div class="thumb"><span class="tag gold" data-en="Weekly">Weekliks</span><img src="images/hp-051.jpg" alt="Lewende krieke, meelwurms en superwurms" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Fresh live feed">Vars lewende voer</h3><p data-en="Crickets, meal- and superworms in weekly — perfect for reptiles &amp; birds.">Krieke, meel- en superwurms weekliks in — perfek vir reptiele &amp; voëls.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20Do%20you%20have%20live%20feed%20in%20stock%20this%20week%3F" target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+      <article class="deal-card">
+        <div class="thumb"><span class="tag green" data-en="Big range">Groot reeks</span><img src="images/hp-046.jpg" alt="Voëlhokke en toebehore" loading="lazy" decoding="async" /></div>
+        <div class="body"><h3 data-en="Bird cages &amp; kit">Voëlhokke &amp; toebehore</h3><p data-en="Metal cages, perches, feeders &amp; nests for canaries, cockatiels &amp; more.">Metaalhokke, sitstokke, voerbakke &amp; neste vir kanaries, kokketiele &amp; meer.</p>
+          <a class="btn btn-wa" href="https://wa.me/27796952929?text=Hi!%20I'm%20looking%20for%20a%20bird%20cage." target="_blank" rel="noopener" data-en="Order on WhatsApp">Bestel op WhatsApp</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="band-wash">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-en="Why Heavenly Pets">Waarom Heavenly Pets</span>
+      <h2 data-en="A little shop with a big heart">'n Klein winkel met 'n groot hart</h2>
+      <p data-en="We're not a faceless chain. We're the neighbours who remember your pets by name — and we make sure every animal that leaves goes home happy and healthy.">Ons is nie 'n gesiglose ketting nie. Ons is die bure wat jou troeteldiere op die naam ken — en ons maak seker elke dier gaan gelukkig en gesond huis toe.</p>
+    </div>
+    <div class="value-grid">
+      <div class="value reveal"><div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 3l9 6v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21v-6h6v6"/></svg></div><h3 data-en="Local &amp; family-run">Plaaslik &amp; familiebesit</h3><p data-en="A familiar Meyerton face who knows you and your animals by name.">'n Bekende Meyerton-gesig wat jou en jou diere op die naam ken.</p></div>
+      <div class="value reveal d1"><div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3 data-en="Honest advice">Eerlike advies</h3><p data-en="No pressure, no upselling — just the right food and kit for your pet.">Geen druk, geen opverkoop nie — net die regte kos en toebehore vir jou dier.</p></div>
+      <div class="value reveal d2"><div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M3 10h18M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div><h3 data-en="Multiple suppliers">Verskeie verskaffers</h3><p data-en="A genuinely big range across every kind of pet — all under one roof.">'n Werklik groot reeks oor elke soort troeteldier — alles onder een dak.</p></div>
+      <div class="value reveal d3"><div class="v-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11"/></svg></div><h3 data-en="A real community">'n Ware gemeenskap</h3><p data-en="Thousands of local pet lovers sharing new stock, tips &amp; adoptions.">Duisende plaaslike diereliefhebbers wat nuwe voorraad, wenke &amp; aannemings deel.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="band-cream">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-en="Straight from the shop">Reguit uit die winkel</span>
+      <h2 data-en="The Heavenly Pets gallery">Die Heavenly Pets-galery</h2>
+      <p data-en="Real photos of real stock — pulled from our Facebook community and shop. Hover or tap any photo for a closer look.">Regte foto's van regte voorraad — vanuit ons Facebook-gemeenskap en winkel. Beweeg oor of tik enige foto vir 'n nader kyk.</p>
+    </div>
+    <div class="filters reveal" id="gal-filters" aria-label="Filtreer galery"></div>
+    <div class="gal" id="gal"></div>
+    <p id="gal-empty" data-en="Photos coming soon — follow us on Facebook to see new stock first.">Foto's binnekort — volg ons op Facebook om nuwe voorraad eerste te sien.</p>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section id="community" class="band-green community">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow on-dark" data-en="Join the pack">Sluit aan by die trop</span>
+      <h2 style="font-size:clamp(2.1rem,4.4vw,3.2rem);margin:.5rem 0 1rem" data-en="Stay in the loop on new stock, specials &amp; adorable arrivals">Bly op hoogte van nuwe voorraad, aanbiedings &amp; oulike nuwe aankomelinge</h2>
+      <p style="color:rgba(255,255,255,.85);max-width:48ch" data-en="Our community is where it all happens — new stock alerts, promotions, events and pets looking for homes. Come say hi.">Ons gemeenskap is waar alles gebeur — kennisgewings van nuwe voorraad, promosies, geleenthede en diere wat 'n huis soek. Kom groet.</p>
+      <div class="stat-row">
+        <div class="stat"><b>2000+</b><span data-en="Community members">Gemeenskapslede</span></div>
+        <div class="stat"><b>7</b><span data-en="Pet departments">Troeteldier-afdelings</span></div>
+        <div class="stat"><b>100%</b><span data-en="Locally loved">Plaaslik geliefd</span></div>
       </div>
     </div>
-  </section>
-
-  <!-- GALLERY -->
-  <section id="gallery">
-    <div class="wrap">
-      <div class="gal-head">
-        <div class="sec-head reveal" style="margin-bottom:0">
-          <span class="eyebrow">From our community</span>
-          <h2>The Heavenly Pets gallery</h2>
-          <p>Snapshots straight from our Facebook group — new arrivals, happy customers and the odd four-legged superstar.</p>
-        </div>
-        <div class="gal-filters reveal d2" id="gal-filters" hidden>
-          <button class="active" data-cat="all">All</button>
-          <button data-cat="food">Food &amp; Treats</button>
-          <button data-cat="pets">Pets &amp; Adoption</button>
-          <button data-cat="accessories">Accessories &amp; Care</button>
-          <button data-cat="store">In the Shop</button>
-        </div>
-      </div>
-
-      <div class="gal-grid" id="gal-grid" aria-live="polite"></div>
-
-      <!-- shown when no photos have been ingested yet -->
-      <div class="gal-empty reveal" id="gal-empty">
-        <svg class="cloud" viewBox="0 0 96 96" fill="none" aria-hidden="true">
-          <ellipse cx="48" cy="62" rx="38" ry="16" fill="#EDF6EF" stroke="#D9EBDF" stroke-width="2"/>
-          <circle cx="34" cy="52" r="16" fill="#FFFFFF" stroke="#D9EBDF" stroke-width="2"/>
-          <circle cx="56" cy="48" r="20" fill="#FFFFFF" stroke="#D9EBDF" stroke-width="2"/>
-          <ellipse cx="48" cy="22" rx="20" ry="6" fill="none" stroke="#F2B441" stroke-width="4"/>
-          <g fill="#12833B"><circle cx="42" cy="50" r="2.6"/><circle cx="54" cy="49" r="2.6"/></g>
-        </svg>
-        <h3>Our photo album is on its way</h3>
-        <p>We're gathering our latest photos from the Heavenly Pets Facebook community. In the meantime, come and see what's new over on our group.</p>
-        <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
-          See our latest posts
-        </a>
-      </div>
+    <div class="join-cards reveal d1">
+      <a class="join-card fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">
+        <span class="j-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg></span>
+        <div><b data-en="Facebook group">Facebook-groep</b><span data-en="Daily new stock &amp; chat">Daaglikse nuwe voorraad &amp; geselsies</span></div>
+        <span class="arr" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="join-card tk" href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener">
+        <span class="j-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3h-3v13a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V10.5A5.5 5.5 0 1 0 16.5 16V8.9a6.5 6.5 0 0 0 4 1.35V7.2a3.7 3.7 0 0 1-4-3.2z"/></svg></span>
+        <div><b>TikTok</b><span>@heavenly_pets_petshop</span></div>
+        <span class="arr" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="join-card wa" href="https://wa.me/27796952929" target="_blank" rel="noopener">
+        <span class="j-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg></span>
+        <div><b data-en="WhatsApp us">WhatsApp ons</b><span data-en="079 695 2929 · order &amp; enquire">079 695 2929 · bestel &amp; navraag</span></div>
+        <span class="arr" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section id="about" class="band about">
-    <div class="wrap about-grid">
-      <div class="about-copy reveal">
-        <span class="eyebrow">Our story</span>
-        <h2>A little pet shop with a big heart</h2>
-        <p>Heavenly Pets PETSHOP is a family-run pet shop in Meyerton, here for the dogs, cats and small companions that make our homes complete. We keep our shelves stocked with the food and essentials you rely on, and we're always happy to share honest, no-pressure advice.</p>
-        <p>Around the shop we've grown a warm little community on Facebook, where we post new stock, pets looking for homes, seasonal specials and plenty of adorable photos. Whether you're a first-time pet parent or an old hand, you're welcome here.</p>
-        <blockquote>Because every pet deserves a heavenly life.</blockquote>
-        <div class="facts">
-          <div class="fact"><b>Meyerton</b><span>Where to find us</span></div>
-          <div class="fact"><b>Family</b><span>Owned &amp; run</span></div>
-          <div class="fact"><b>All pets</b><span>Big &amp; small</span></div>
-        </div>
-      </div>
-      <div class="about-art reveal d2">
-        <svg viewBox="0 0 460 420" role="img" aria-label="A friendly shopfront with a paw sign, under clouds and a golden sun">
-          <defs>
-            <linearGradient id="storeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#20B14F"/><stop offset="1" stop-color="#12833B"/></linearGradient>
-          </defs>
-          <rect x="0" y="0" width="460" height="420" rx="34" fill="#EDF6EF"/>
-          <circle cx="372" cy="86" r="40" fill="#F2B441" opacity=".9"/>
-          <g fill="#FFFFFF" stroke="#DCE6F1" stroke-width="2">
-            <circle cx="96" cy="86" r="26"/><circle cx="128" cy="78" r="30"/><circle cx="162" cy="88" r="22"/>
-          </g>
-          <!-- shop -->
-          <rect x="86" y="150" width="288" height="196" rx="12" fill="#FFFFFF" stroke="#DCE6F1" stroke-width="2"/>
-          <path d="M74 150l156-46 156 46z" fill="url(#storeG)"/>
-          <rect x="120" y="132" width="220" height="30" rx="6" fill="#12833B"/>
-          <text x="230" y="153" text-anchor="middle" font-family="Fraunces, serif" font-size="18" font-weight="600" fill="#FFF4DC">Heavenly Pets</text>
-          <!-- door + windows -->
-          <rect x="206" y="238" width="48" height="108" rx="6" fill="#EDF6EF" stroke="#CFE3D4" stroke-width="2"/>
-          <circle cx="246" cy="292" r="3" fill="#12833B"/>
-          <rect x="112" y="200" width="72" height="60" rx="8" fill="#DCEAF7" stroke="#CFE3D4" stroke-width="2"/>
-          <rect x="276" y="200" width="72" height="60" rx="8" fill="#DCEAF7" stroke="#CFE3D4" stroke-width="2"/>
-          <!-- paw sign -->
-          <g transform="translate(148 224)" fill="#12833B"><circle cx="0" cy="0" r="4"/><circle cx="10" cy="-3" r="4"/><circle cx="19" cy="2" r="3.4"/><circle cx="-8" cy="3" r="3.4"/><path d="M6 4c5 0 9 4 9 8 0 3-3 4-5.5 3a7 7 0 0 0-6 0C1 20-2 19-2 16c0-4 4-8 8-8z"/></g>
-          <!-- heart in window -->
-          <path d="M312 224c5-8 17-3 17 5 0 7-17 15-17 15s-17-8-17-15c0-8 12-13 17-5z" fill="#EF8A78"/>
-        </svg>
-      </div>
+<!-- ABOUT -->
+<section id="about" class="band-cream" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow" data-en="Our story">Ons storie</span>
+      <h2 data-en="Always friendly… with the best advice">Altyd vriendelik… met die beste advies</h2>
+      <p data-en="Heavenly Pets PETSHOP is a family-run shop in the heart of Meyerton, here for the dogs, cats, birds, fish, reptiles and small companions that make our homes complete. We keep the shelves stocked from multiple suppliers and we're always happy to help you find exactly the right thing.">Heavenly Pets PETSHOP is 'n familiewinkel in die hart van Meyerton, hier vir die honde, katte, voëls, visse, reptiele en klein maatjies wat ons huise volmaak. Ons hou die rakke vol van verskeie verskaffers en help jou graag om presies die regte ding te kry.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- VALUES -->
-  <section id="values">
-    <div class="wrap">
-      <div class="sec-head reveal" style="text-align:center; margin-left:auto; margin-right:auto">
-        <span class="eyebrow" style="justify-content:center">Why pet parents choose us</span>
-        <h2>Small shop. Big care.</h2>
+<!-- VISIT -->
+<section id="visit" class="band-cream">
+  <div class="wrap">
+    <div class="visit-grid">
+      <div class="visit-card reveal">
+        <span class="eyebrow" data-en="Come say hello">Kom groet</span>
+        <h2 style="font-size:clamp(1.9rem,3.4vw,2.6rem);margin:.5rem 0 .3rem" data-en="Visit us in Meyerton">Besoek ons in Meyerton</h2>
+        <p style="color:var(--ink-soft);margin:0" data-en="Pop in to browse, or reach us any time on WhatsApp, phone or Facebook — the quickest way to check stock or set something aside.">Kom kuier en blaai, of kontak ons enige tyd op WhatsApp, telefoon of Facebook — die vinnigste manier om voorraad na te gaan of iets eenkant te sit.</p>
+        <ul class="contact-list">
+          <li><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b data-en="Find us">Vind ons</b>49B c/o Loch &amp; Holiday St, Meyerton, 1961 · <a href="https://maps.app.goo.gl/4KNujK8ABQftjrLJ7" target="_blank" rel="noopener" data-en="Get directions">Kry aanwysings</a></div></li>
+          <li><span class="c-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg></span><div><b data-en="Call or WhatsApp">Bel of WhatsApp</b><a href="tel:+27796952929">079 695 2929</a> · <a href="https://wa.me/27796952929" target="_blank" rel="noopener" data-en="Chat now">Gesels nou</a></div></li>
+          <li><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><b data-en="Email">E-pos</b><a href="mailto:heavenlypetshopmeyerton@gmail.com">heavenlypetshopmeyerton@gmail.com</a></div></li>
+          <li><span class="c-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b data-en="Trading hours">Winkelure</b><span data-en="Message us on WhatsApp or Facebook for today's hours">Stuur vir ons 'n WhatsApp of Facebook-boodskap vir vandag se ure</span></div></li>
+        </ul>
       </div>
-      <div class="values">
-        <div class="value reveal d1">
-          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg></div>
-          <h3>Local &amp; family-run</h3>
-          <p>A familiar Meyerton face who remembers you and your pets by name.</p>
-        </div>
-        <div class="value reveal d2">
-          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9M12 7v5l3 2"/></svg></div>
-          <h3>Honest advice</h3>
-          <p>No hard sell — just genuine help finding what's right for your animal.</p>
-        </div>
-        <div class="value reveal d3">
-          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2M10 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM21 21v-2a4 4 0 0 0-3-3.87"/></svg></div>
-          <h3>Community first</h3>
-          <p>An active Facebook group sharing stock, adoptions and pet-parent tips.</p>
-        </div>
-        <div class="value reveal d4">
-          <div class="vico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="2.2"/><circle cx="15" cy="7" r="2.2"/><circle cx="19" cy="12" r="2"/><circle cx="5" cy="13" r="2"/><path d="M12 13c3 0 5.5 2.5 5.5 5 0 2-2 2.6-3.5 1.8a4.5 4.5 0 0 0-4 0C8.5 20.6 6.5 20 6.5 18c0-2.5 2.5-5 5.5-5z"/></svg></div>
-          <h3>Pets welcome</h3>
-          <p>Bring your best friend along — well-behaved pets are always welcome in-store.</p>
-        </div>
-      </div>
+      <a class="map-card reveal d1" href="https://maps.app.goo.gl/4KNujK8ABQftjrLJ7" target="_blank" rel="noopener" aria-label="Maak Heavenly Pets in Google Maps oop">
+        <span class="map-visual" aria-hidden="true"></span>
+        <svg class="pin" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+        <div class="map-body"><b>49B c/o Loch &amp; Holiday St</b><span style="color:rgba(255,255,255,.85)" data-en="Meyerton, 1961 · Gauteng — tap to open in Google Maps">Meyerton, 1961 · Gauteng — tik om in Google Maps oop te maak</span></div>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONTACT -->
-  <!-- Details verified from the shop's official live site (heavenlypetshop.co.za) + Montego promo graphic. -->
-  <section id="contact" class="band">
-    <div class="wrap">
-      <div class="contact-panel reveal">
-        <div>
-          <span class="eyebrow" style="color:#FFE6B0">Come say hello</span>
-          <h2>Visit us in Meyerton</h2>
-          <p>Pop into the shop, or reach us any time through our Facebook community — it's the quickest way to see what's fresh on the shelves, ask a question, or spot a pet looking for a home.</p>
-          <a class="btn btn-fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" style="margin-top:.4rem">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
-            Message us on Facebook
-          </a>
-        </div>
-        <div class="contact-cards">
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
-            <div><b>Find us</b><small>49B c/o Loch &amp; Holiday St,<br>Meyerton, 1961, Gauteng<br><a href="https://maps.app.goo.gl/4KNujK8ABQftjrLJ7" target="_blank" rel="noopener">Get directions →</a></small></div>
-          </div>
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-            <div><b>Call or WhatsApp</b><small><a href="tel:+27796952929">079&nbsp;695&nbsp;2929</a> · <a href="https://wa.me/27796952929" target="_blank" rel="noopener">Chat on WhatsApp →</a></small></div>
-          </div>
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
-            <div><b>Email</b><small><a href="mailto:heavenlypetshopmeyerton@gmail.com">heavenlypetshopmeyerton@gmail.com</a></small></div>
-          </div>
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg></div>
-            <div><b>Facebook community</b><small><a href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Heavenly Pets PETSHOP group →</a></small></div>
-          </div>
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3h-3v13a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V10.5A5.5 5.5 0 1 0 16.5 16V8.9a6.5 6.5 0 0 0 4 1.35V7.2a3.7 3.7 0 0 1-4-3.2z"/></svg></div>
-            <div><b>TikTok</b><small><a href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener">@heavenly_pets_petshop →</a></small></div>
-          </div>
-          <div class="ccard">
-            <div class="cico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9M12 7v5l3 2"/></svg></div>
-            <div><b>Trading hours</b><small>Message us on Facebook or WhatsApp for today's hours.</small></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 
+<!-- FOOTER -->
 <footer class="site">
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <div class="foot-brand">
-          <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
-          <b>Heavenly Pets PETSHOP</b>
-        </div>
-        <p style="max-width:38ch; color:#9CA9B8">Meyerton's neighbourhood pet shop — quality food, treats and care for the pets who make life better.</p>
+        <div class="foot-brand"><img src="images/logo-mark.png" alt="Heavenly Pets logo" width="52" height="52" /><span style="display:flex;flex-direction:column"><b>Heavenly Pets</b><span class="tagsm">Petshop · Meyerton</span></span></div>
+        <p style="max-width:34ch;color:#8fae98" data-en="Everything your pets need, under one heavenly roof. Always friendly… with the best advice.">Alles wat jou troeteldiere nodig het, onder een hemelse dak. Altyd vriendelik… met die beste advies.</p>
+        <span class="socials" style="margin-top:.4rem">
+          <a class="soc fb" href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
+          <a class="soc tk" href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3h-3v13a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V10.5A5.5 5.5 0 1 0 16.5 16V8.9a6.5 6.5 0 0 0 4 1.35V7.2a3.7 3.7 0 0 1-4-3.2z"/></svg></a>
+          <a class="soc wa" href="https://wa.me/27796952929" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg></a>
+        </span>
       </div>
       <div>
-        <h4>Explore</h4>
+        <h4 data-en="Shop">Koop</h4>
         <ul>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#shop" data-en="Dogs &amp; Cats">Honde &amp; Katte</a></li>
+          <li><a href="#shop" data-en="Birds">Voëls</a></li>
+          <li><a href="#shop" data-en="Fish &amp; Aquarium">Visse &amp; Akwarium</a></li>
+          <li><a href="#shop" data-en="Reptiles">Reptiele</a></li>
+          <li><a href="#deals" data-en="This week's deals">Hierdie week se aanbiedings</a></li>
         </ul>
       </div>
       <div>
-        <h4>Find us</h4>
+        <h4 data-en="Explore">Verken</h4>
         <ul>
-          <li><span style="color:#9CA9B8">49B c/o Loch &amp; Holiday St,<br>Meyerton, 1961</span></li>
-          <li><a href="tel:+27796952929">079 695 2929</a> · <a href="https://wa.me/27796952929" target="_blank" rel="noopener">WhatsApp</a></li>
-          <li><a href="mailto:heavenlypetshopmeyerton@gmail.com">heavenlypetshopmeyerton@gmail.com</a></li>
-          <li><a href="https://www.facebook.com/groups/2747893658723247" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@heavenly_pets_petshop" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="#gallery" data-en="Gallery">Galery</a></li>
+          <li><a href="#about" data-en="About us">Oor ons</a></li>
+          <li><a href="#community" data-en="Community">Gemeenskap</a></li>
+          <li><a href="#visit" data-en="Visit / Contact">Besoek / Kontak</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-en="Find us">Vind ons</h4>
+        <ul>
+          <li><span style="color:#8fae98">49B c/o Loch &amp; Holiday St,<br>Meyerton, 1961</span></li>
+          <li><a href="tel:+27796952929">079 695 2929</a></li>
+          <li><a href="mailto:heavenlypetshopmeyerton@gmail.com" data-en="Email us">E-pos ons</a></li>
+          <li><a href="https://maps.app.goo.gl/4KNujK8ABQftjrLJ7" target="_blank" rel="noopener">Google Maps</a></li>
         </ul>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© <span id="year">2026</span> Heavenly Pets PETSHOP. All rights reserved.</span>
-      <span>Made with care for the animals of Meyerton.</span>
+      <span>© <span id="year">2026</span> Heavenly Pets PETSHOP · Meyerton, Gauteng. <span data-en="All rights reserved.">Alle regte voorbehou.</span></span>
+      <span class="foot-legal">
+        <a href="https://www.heavenlypetshop.co.za/terms-of-use" target="_blank" rel="noopener" data-en="Terms of use">Gebruiksvoorwaardes</a> ·
+        <a href="https://www.heavenlypetshop.co.za/privacy-policy" target="_blank" rel="noopener" data-en="Privacy policy">Privaatheidsbeleid</a>
+      </span>
     </div>
   </div>
 </footer>
 
-<noscript>
-  <style>.reveal{opacity:1 !important; transform:none !important} #gal-empty{display:block}</style>
-</noscript>
+<a class="wa-fab" href="https://wa.me/27796952929?text=Hi%20Heavenly%20Pets!" target="_blank" rel="noopener" aria-label="Gesels met ons op WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.05-1.32A10 10 0 1 0 12 2z"/></svg>
+</a>
 
-<!-- gallery content (auto-generated by scraper/ingest.mjs) -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotokyker">
+  <button class="lb-close" id="lb-close" aria-label="Maak toe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <img id="lb-img" src="" alt="" />
+  <div class="lb-cap" id="lb-cap"></div>
+</div>
+
 <script src="gallery-data.js"></script>
 <script>
 (function(){
   "use strict";
-  // footer year
-  document.getElementById('year').textContent = new Date().getFullYear();
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // mobile nav
-  var toggle = document.getElementById('navtoggle');
-  var links = document.getElementById('navlinks');
-  toggle.addEventListener('click', function(){
-    var open = links.classList.toggle('open');
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  });
-  links.addEventListener('click', function(e){
-    if (e.target.tagName === 'A'){ links.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); }
-  });
+  var y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
 
-  // ---- gallery render ----
-  var GAL = Array.isArray(window.GALLERY) ? window.GALLERY : [];
-  var grid = document.getElementById('gal-grid');
-  var empty = document.getElementById('gal-empty');
-  var filters = document.getElementById('gal-filters');
+  // ---- i18n (default Afrikaans; English stored in data-en) ----
+  var i18nNodes = [].slice.call(document.querySelectorAll('[data-en]'));
+  var afHTML = i18nNodes.map(function(n){ return n.innerHTML; });
+  var CAT_LABELS = {
+    af: { all:'Alles', food:'Kos & Lekkernye', pets:'Diere & Vee', accessories:'Toebehore & Sorg', store:'In die Winkel' },
+    en: { all:'All', food:'Food & Treats', pets:'Pets & Livestock', accessories:'Accessories & Care', store:'In the Shop' }
+  };
+  var lang = 'af';
+  try { lang = localStorage.getItem('hp-lang') || 'af'; } catch(e){}
+  if (lang !== 'en') lang = 'af';
 
-  function render(cat){
-    grid.innerHTML = '';
-    var items = GAL.filter(function(g){ return cat === 'all' || g.c === cat; });
-    var frag = document.createDocumentFragment();
-    items.forEach(function(g){
-      var fig = document.createElement('figure');
-      fig.className = 'polaroid';
-      var img = document.createElement('img');
-      img.src = g.f; img.alt = g.cap || 'Heavenly Pets PETSHOP photo';
-      img.loading = 'lazy'; img.decoding = 'async';
-      fig.appendChild(img);
-      if (g.cap){
-        var cap = document.createElement('figcaption');
-        cap.textContent = g.cap;
-        fig.appendChild(cap);
-      }
-      frag.appendChild(fig);
+  function applyLang(l){
+    lang = (l === 'en') ? 'en' : 'af';
+    for (var i = 0; i < i18nNodes.length; i++){
+      i18nNodes[i].innerHTML = (lang === 'en') ? i18nNodes[i].getAttribute('data-en') : afHTML[i];
+    }
+    document.documentElement.setAttribute('lang', lang);
+    [].forEach.call(document.querySelectorAll('.lang-btn'), function(b){
+      var on = b.getAttribute('data-lang') === lang;
+      b.classList.toggle('active', on); b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
-    grid.appendChild(frag);
+    [].forEach.call(document.querySelectorAll('.filter'), function(f){
+      var c = f.getAttribute('data-cat'); if (c) f.textContent = CAT_LABELS[lang][c] || c;
+    });
+    try { localStorage.setItem('hp-lang', lang); } catch(e){}
+  }
+  [].forEach.call(document.querySelectorAll('.lang-btn'), function(b){
+    b.addEventListener('click', function(){ applyLang(b.getAttribute('data-lang')); });
+  });
+
+  // ---- mobile nav ----
+  var burger = document.getElementById('hamburger'), links = document.getElementById('navlinks'), scrim = document.getElementById('scrim');
+  function closeNav(){ links.classList.remove('open'); scrim.classList.remove('show'); burger.setAttribute('aria-expanded','false'); }
+  if (burger){
+    burger.addEventListener('click', function(){
+      var open = links.classList.toggle('open'); scrim.classList.toggle('show', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    scrim.addEventListener('click', closeNav);
+    links.addEventListener('click', function(e){ if (e.target.tagName === 'A') closeNav(); });
+    window.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeNav(); });
   }
 
-  if (GAL.length > 0){
-    empty.style.display = 'none';
-    filters.hidden = false;
-    render('all');
-    filters.addEventListener('click', function(e){
-      var b = e.target.closest('button'); if(!b) return;
-      filters.querySelectorAll('button').forEach(function(x){ x.classList.remove('active'); });
-      b.classList.add('active');
-      render(b.dataset.cat);
-    });
-  } else {
-    // no photos yet — keep the friendly empty state, hide the empty grid + filters
-    grid.style.display = 'none';
-    filters.hidden = true;
-  }
+  // ---- gallery ----
+  var gal = document.getElementById('gal'), filtersEl = document.getElementById('gal-filters'),
+      emptyEl = document.getElementById('gal-empty'), items = (window.GALLERY || []);
+  function catLabel(c){ return CAT_LABELS[lang][c] || c; }
 
-  // ---- scroll reveals ----
-  // Small units only (never a huge container). IntersectionObserver drives the
-  // animation, but a passive scroll/load "sweep" guarantees nothing is ever left
-  // permanently invisible — covers fast scrolls, End key and anchor jumps where
-  // the observer can batch away a quick in-and-out.
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var revealables = [].slice.call(document.querySelectorAll('.reveal'));
-  function show(el){ el.classList.add('in'); }
-  if (reduce || !('IntersectionObserver' in window)){
-    revealables.forEach(show);
-  } else {
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){
-        if (en.isIntersecting){ show(en.target); io.unobserve(en.target); }
+  if (!items.length){ if (emptyEl) emptyEl.style.display = 'block'; }
+  else {
+    if (emptyEl) emptyEl.style.display = 'none';
+    var cats = []; items.forEach(function(it){ if (cats.indexOf(it.c) < 0) cats.push(it.c); });
+    ['all'].concat(cats).forEach(function(c, i){
+      var b = document.createElement('button');
+      b.className = 'filter' + (i === 0 ? ' active' : '');
+      b.type = 'button'; b.setAttribute('data-cat', c);
+      b.setAttribute('aria-pressed', i === 0 ? 'true' : 'false');
+      b.textContent = catLabel(c);
+      b.addEventListener('click', function(){
+        [].forEach.call(filtersEl.children, function(x){ x.classList.remove('active'); x.setAttribute('aria-pressed','false'); });
+        b.classList.add('active'); b.setAttribute('aria-pressed','true');
+        var sel = b.getAttribute('data-cat');
+        [].forEach.call(gal.children, function(fig){ fig.style.display = (sel === 'all' || fig.getAttribute('data-cat') === sel) ? '' : 'none'; });
       });
-    }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
-    revealables.forEach(function(el){ io.observe(el); });
-
-    var sweep = function(){
-      for (var i = revealables.length - 1; i >= 0; i--){
-        var el = revealables[i];
-        if (el.classList.contains('in')) continue;
-        if (el.getBoundingClientRect().top < window.innerHeight * 0.94){
-          show(el); io.unobserve(el);
-        }
-      }
-    };
-    window.addEventListener('scroll', sweep, { passive: true });
-    window.addEventListener('load', sweep);
-    sweep();
+      filtersEl.appendChild(b);
+    });
+    items.forEach(function(it){
+      var fig = document.createElement('figure');
+      fig.setAttribute('data-cat', it.c || 'store');
+      fig.setAttribute('role','button'); fig.setAttribute('tabindex','0');
+      var altTxt = it.cap || ('Heavenly Pets — ' + catLabel(it.c || 'store'));
+      fig.setAttribute('aria-label', altTxt);
+      var img = document.createElement('img');
+      img.src = it.f; img.loading = 'lazy'; img.decoding = 'async'; img.alt = altTxt;
+      fig.appendChild(img);
+      if (it.cap){ var fc = document.createElement('figcaption'); fc.textContent = it.cap; fig.appendChild(fc); }
+      fig.addEventListener('click', function(){ openLB(it.f, it.cap || ''); });
+      fig.addEventListener('keydown', function(e){ if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openLB(it.f, it.cap || ''); } });
+      gal.appendChild(fig);
+    });
   }
+
+  // ---- lightbox (focus trap + restore) ----
+  var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lb-img'),
+      lbCap = document.getElementById('lb-cap'), lbClose = document.getElementById('lb-close'), lastFocus = null;
+  function openLB(src, cap){ lastFocus = document.activeElement; lbImg.src = src; lbImg.alt = cap; lbCap.textContent = cap; lb.classList.add('open'); document.body.style.overflow = 'hidden'; lbClose.focus(); }
+  function closeLB(){ lb.classList.remove('open'); lbImg.src = ''; document.body.style.overflow = ''; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
+  if (lb){
+    lbClose.addEventListener('click', closeLB);
+    lb.addEventListener('click', function(e){ if (e.target === lb) closeLB(); });
+    lb.addEventListener('keydown', function(e){ if (e.key === 'Tab'){ e.preventDefault(); lbClose.focus(); } });
+    window.addEventListener('keydown', function(e){ if (e.key === 'Escape' && lb.classList.contains('open')) closeLB(); });
+  }
+
+  // ---- reveal on scroll ----
+  var reveals = [].slice.call(document.querySelectorAll('.reveal'));
+  if (reduce || !('IntersectionObserver' in window)){ reveals.forEach(function(el){ el.classList.add('in'); }); }
+  else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    reveals.forEach(function(el){ io.observe(el); });
+    window.addEventListener('load', function(){ setTimeout(function(){ reveals.forEach(function(el){ el.classList.add('in'); }); }, 1400); });
+  }
+
+  // apply saved/default language last (so gallery chips relabel)
+  applyLang(lang);
 })();
 </script>
 </body>
